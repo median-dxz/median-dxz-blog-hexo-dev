@@ -24,4 +24,6 @@ themes/next/source/lib/font-awesome/scss/
 themes/next/ource/lib/ua-parser-js/*
 !themes/next/source/lib/ua-parser-js/dist/
 
+/themes/*/
+!/themes/next/
 !themes/next/source/lib/velocity/
