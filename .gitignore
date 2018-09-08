@@ -5,3 +5,23 @@ db.json
 node_modules/
 public/
 .deploy*/
+
+.idea/
+*.iml
+yarn.lock
+package-lock.json
+
+# Ignore optional external libraries
+source/lib/*
+
+# Track internal libraries & Ignore unused verdors files
+themes/next/source/lib/font-awesome/less/
+themes/next/source/lib/font-awesome/scss/
+!themes/next/source/lib/font-awesome/*
+
+!themes/next/source/lib/jquery/
+
+themes/next/ource/lib/ua-parser-js/*
+!themes/next/source/lib/ua-parser-js/dist/
+
+!themes/next/source/lib/velocity/
