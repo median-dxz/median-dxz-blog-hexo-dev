@@ -9,10 +9,12 @@ date: 2018-08-26 22:28:33
 - [x] 《某科学的超电磁炮S》2018.08.13
 - [x] 《魔法禁书目录II》2018.08.21
 - [x] 《Fate / stay night [Unlimited Blade Works]》 2018.08.24
+- [ ] 《Fate / stay night [Heaven's Feel I.presage flower]》
 - [ ] 《罪恶皇冠》
-- [ ] 《Fate / Zero》
+- [x] 《Fate / Zero》2018.09.09
 - [ ] 《甲铁城的卡巴内瑞》
 - [ ] 《刀剑神域》
+- [ ] 《约会大作战》
 - [ ] 《魔法禁书目录III》2018.10.05
 
 ---
