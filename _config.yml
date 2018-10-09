@@ -85,5 +85,3 @@ search:
 deploy:
  - type: git
    repo: git@git.coding.net:median-dxz/Median_dxz_Hexo_Blog.git
- - type: git
-   repo: git@github.com:median-dxz/median-dxz-blog-hexo-dev.git
