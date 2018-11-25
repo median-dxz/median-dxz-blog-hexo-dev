@@ -70,7 +70,7 @@ footer:
     # If you want to animate the icon, set it to true.
     animated: true
     # Change the color of icon, using Hex Code.
-    color: "#666600"
+    color: "#ffe300"
 
   # If not defined, will be used `author` from Hexo main config.
   copyright:
@@ -123,6 +123,7 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   schedule: /schedule/ || th-list
+  project: /project/ || folder-open
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
@@ -393,7 +394,7 @@ font:
 
   # Global font settings used for all elements in <body>.
   global:
-    external: true
+    external: false
     family: Helvetica
     size:
 
@@ -407,19 +408,19 @@ font:
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
-    external: true
+    external: false
     family: Helvetica
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
   logo:
-    external: true
+    external: false
     family: Times New Roman
     size:
 
   # Font settings for <code> and code blocks.
   codes:
-    external: true
+    external: false
     family:  Consolas
     size:
 
@@ -821,14 +822,14 @@ pace_theme: pace-theme-minimal
 
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
 # three_waves
-three_waves: true
+three_waves: false
 # canvas_lines
-canvas_lines: false
+canvas_lines: true
 # canvas_sphere
 canvas_sphere: false
 
@@ -901,7 +902,7 @@ vendors:
 
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
-  canvas_nest:
+  canvas_nest: https://cdn.jsdelivr.net/npm/canvas-nest.js@2.0.3/lib/index.min.js
 
   # Internal version: 1.0.0
   # See: https://github.com/theme-next/theme-next-three
@@ -909,10 +910,10 @@ vendors:
   # three_waves: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/three-waves.min.js
   # canvas_lines: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/canvas_lines.min.js
   # canvas_sphere: //cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/canvas_sphere.min.js
-  three:
-  three_waves:
-  canvas_lines:
-  canvas_sphere:
+  three: https://cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/three.min.js
+  three_waves: https://cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/three-waves.min.js
+  canvas_lines: https://cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/canvas_lines.min.js
+  canvas_sphere: https://cdn.jsdelivr.net/gh/theme-next/theme-next-three@1.0.0/canvas_sphere.min.js
 
   # Internal version: 1.0.0
   # https://github.com/zproo/canvas-ribbon

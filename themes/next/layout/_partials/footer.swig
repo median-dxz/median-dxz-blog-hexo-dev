@@ -56,7 +56,7 @@
 #}&nbsp;&nbsp;|&nbsp;&nbsp; Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></div>
 {% endif %}
 </br>
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <span id="busuanzi_container_site_uv" style='display:none'>View <span id="busuanzi_value_site_uv"></span> Times</span>
 <span class="post-count">嗯，已经写了{{ totalcount(site) }}字节了！</span>
 {% if theme.footer.custom_text %}
