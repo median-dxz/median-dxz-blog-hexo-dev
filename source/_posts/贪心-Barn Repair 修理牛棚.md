@@ -7,7 +7,7 @@ tags:
 - oi
 - c++
 - 贪心
-top: 5
+top: 1
 ---
 ### 【贪心】Barn Repair 修理牛棚
 

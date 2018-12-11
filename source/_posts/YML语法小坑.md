@@ -6,6 +6,7 @@ tags:
 - yml
 categories:
 - Technology
+Stop: 1
 ---
 
 是这样的，hexoblog的markdown原文的上方有段数据段，类似这样
@@ -18,7 +19,7 @@ tags:
 - yml
 categories:
 - Technology
-top: 5
+top: 1
 ```
 
 然而这段其实是yaml格式的，众所周知，yaml的语法很严格，但这边有个问题就是对于这样的一个标题：`[aa]bb`——
