@@ -6,7 +6,7 @@ tags:
 - yml
 categories:
 - Technology
-Stop: 1
+top: 1
 ---
 
 是这样的，hexoblog的markdown原文的上方有段数据段，类似这样
