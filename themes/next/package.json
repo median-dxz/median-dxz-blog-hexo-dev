@@ -1,15 +1,13 @@
 {
   "name": "hexo-theme-next",
-  "version": "6.6.0",
+  "version": "6.3.0",
   "description": "Elegant and powerful theme for Hexo",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "gulp",
-    "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "test": "gulp"
   },
   "repository": {
     "type": "git",
@@ -27,7 +25,6 @@
   },
   "homepage": "https://theme-next.org",
   "devDependencies": {
-    "all-contributors-cli": "^5.4.0",
     "coffee-script": "^1.10.0",
     "gulp": "^3.9.0",
     "gulp-jshint": "^1.12.0",

@@ -1,6 +1,7 @@
 .use-motion .sidebar .motion-element { opacity: 1; }
 
 .sidebar {
+  margin-left: -100%;
   right: auto;
   bottom: auto;
 
@@ -41,7 +42,7 @@
 }
 
 .sidebar a,
-.sidebar span.exturl {
+.sidebar .exturl {
   color: $black-light;
 
   &:hover { color: $black-deep; }
@@ -52,8 +53,8 @@
 }
 
 .links-of-author-item {
-  a:before, span.exturl:before { display: none; }
-  a, span.exturl {
+  a:before, .exturl:before { display: none; }
+  a, .exturl {
     border-bottom: none;
     text-decoration: underline;
   }
@@ -84,14 +85,14 @@
   flex-wrap: wrap;
   justify-content: center;
 
-  span.exturl {
+  .exturl {
     font-size: 13px;
   }
 }
 .links-of-author-item {
   sidebar-inline-links-item();
 
-  a, span.exturl {
+  a, .exturl {
     display: block;
     text-decoration: none;
 
