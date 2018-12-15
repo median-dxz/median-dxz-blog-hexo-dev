@@ -5,10 +5,10 @@
   {% endif %}
 
   {% if page.comments %}
-    <script>
+    <script type="text/javascript">
       var disqus_config = function () {
-        this.page.url = {{ page.permalink | json }};
-        this.page.identifier = {{ page.path | json }};
+        this.page.url = '{{ page.permalink }}';
+        this.page.identifier = '{{ page.path }}';
         this.page.title = '{{ page.title| addslashes }}';
         {% if __('disqus') !== 'disqus' -%}
           this.language = '{{ __('disqus') }}';
@@ -28,12 +28,8 @@
             loadComments();
           } else {
             $(window).on('scroll.disqus_scroll', function () {
-              // offsetTop may changes because of manually resizing browser window or lazy loading images.
-              var offsetTop = $('#comments').offset().top - $(window).height();
-              var scrollTop = $(window).scrollTop();
-
-              // pre-load comments a bit? (margin or anything else)
-              if (offsetTop - scrollTop < 60) {
+              var scrollTop = document.documentElement.scrollTop;
+              if (scrollTop >= offsetTop) {
                 $(window).off('.disqus_scroll');
                 loadComments();
               }

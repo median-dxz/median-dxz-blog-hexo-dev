@@ -1,10 +1,7 @@
 {% if not (theme.disqus.enable and theme.disqus.shortname) %}
 
   {% if page.comments and theme.livere_uid %}
-    <script>
-      window.livereOptions = {
-        refer: '{{ page.path }}'
-      };
+    <script type="text/javascript">
       (function(d, s) {
         var j, e = d.getElementsByTagName(s)[0];
         if (typeof LivereTower === 'function') { return; }

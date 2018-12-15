@@ -3,7 +3,8 @@ title:
   archive: 归档
   category: 分类
   tag: 标签
-  schedule: 计划表
+  schedule: 日程表
+  project: 项目
 menu:
   home: 首页
   archives: 归档
@@ -14,6 +15,7 @@ menu:
   schedule: 填坑预警
   sitemap: 空间站导航图
   commonweal: 诶？没有这个页面
+  project: 项目
 sidebar:
   overview: 站点概览
   toc: 文章目录

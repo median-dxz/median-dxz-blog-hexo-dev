@@ -1,5 +1,11 @@
 /**
- * include-raw.js | https://theme-next.org/docs/tag-plugins/
+ * include.js
+ *
+ * Usage:
+ *
+ * {% include_raw '_data/path/to/file.html' %}
+ *
+ * Path is relative to your site source directory.
  */
 
 /* global hexo */
