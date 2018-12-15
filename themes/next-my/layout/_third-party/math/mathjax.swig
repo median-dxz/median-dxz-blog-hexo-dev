@@ -17,10 +17,4 @@
         }
     });
 </script>
-<script src="{{ theme.math.mathjax.cdn }}"></script>
-
-<style>
-.MathJax_Display {
-    overflow: auto hidden;
-}
-</style>
+<script type="text/javascript" src="{{ theme.math.mathjax.cdn }}"></script>
