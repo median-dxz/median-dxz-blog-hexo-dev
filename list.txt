@@ -1,0 +1,14 @@
+https://www.jianshu.com/p/5fbb62791f9b | hexo 写文章创建文件自动打开编辑器！ - 简书
+https://www.jianshu.com/p/d2aca48204fb | 你没见过的 Hexo 全自动部署教程【完善版】 - 简书
+https://hexo.io/zh-cn/docs/asset-folders.html | 资源文件夹 | Hexo
+https://github.com/theme-next/hexo-symbols-count-time | theme-next/hexo-symbols-count-time: Symbols count and time to read of articles plugin for Hexo.
+https://hexo.io/zh-cn/docs/configuration.html | 配置 | Hexo
+https://www.baidu.com/s?ie=UTF-8&wd=zplayer | zplayer_百度搜索
+https://median-dxz.tk/ | Median_dxz's International Space Station
+https://www.jianshu.com/p/d2aca48204fb | 你没见过的 Hexo 全自动部署教程【完善版】 - 简书
+https://www.jianshu.com/p/5fbb62791f9b | hexo 写文章创建文件自动打开编辑器！ - 简书
+https://hexo.io/zh-cn/docs/asset-folders.html | 资源文件夹 | Hexo
+https://github.com/zhuzhuyule/HexoEditor | zhuzhuyule/HexoEditor: this markdown Editor for hexo blog
+https://github.com/theme-next/theme-next-fancybox3 | theme-next/theme-next-fancybox3: fancyBox3 for NexT.
+https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/INSTALLATION.md | hexo-theme-next/INSTALLATION.md at master · theme-next/hexo-theme-next
+https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/DATA-FILES.md | hexo-theme-next/DATA-FILES.md at master · theme-next/hexo-theme-next
