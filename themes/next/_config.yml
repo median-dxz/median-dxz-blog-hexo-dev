@@ -567,7 +567,7 @@ gitment:
 gitalk:
   enable: true
   github_id:  median-dxz
-  repo:  blog-s-comments
+  repo:  gitalk-for-median-dxz-blog
   client_id:  d7401b1f9011525767e5
   client_secret: f4d903e0fb77b8010c3fab504b052560c8aa0f8b
   admin_user:  median-dxz
