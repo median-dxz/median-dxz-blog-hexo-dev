@@ -62,7 +62,6 @@
     <script type="text/javascript">
         var o = false
         $("#busuanzi_value_site_uv").bind("DOMNodeInserted", function () {
-            console.log($("#busuanzi_value_site_uv").text())
             if(o == true){
                 return
             }
@@ -70,7 +69,6 @@
             var x = Number($("#busuanzi_value_site_uv").text())
             x += 101
             $("#busuanzi_value_site_uv").text(x.toString())
-            console.log($("#busuanzi_value_site_uv").text())
         });
     </script>
 {% if theme.footer.custom_text %}

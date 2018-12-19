@@ -79,10 +79,6 @@ search:
   field: post
   format: html
   limit: 100
-  
-topindex_generator:
-  per_page: 10
-  order_by: -date
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
