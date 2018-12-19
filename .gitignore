@@ -27,4 +27,4 @@ themes/next/ource/lib/ua-parser-js/*
 themes/*/
 !themes/next/
 !themes/next/source/lib/velocity/
-!themes/hexo-theme-next/
+themes/hexo-theme-next/
