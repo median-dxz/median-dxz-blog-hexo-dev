@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: median-dxz.tk
+url: median-dxz.xyz
 root: /
 permalink: :category/:year:month/:title/
 permalink_defaults:
@@ -28,7 +28,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :untitle.md # File name of new posts
+new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -85,7 +85,7 @@ search:
 deploy:
  - type: git
    repo: git@git.coding.net:median-dxz/Median_dxz_Hexo_Blog.git
-  
+   
 img_optimization: 
   exclude: 
     - css/ # anything that ends with a forward slash will be considered a directory
@@ -102,10 +102,10 @@ img_optimization:
   # these parameters will be used for any file types that do not have a params parameter defined in config. You can override these to your own preferred defaults.
   default_params: -resize 760000@ -filter Triangle -define filter:support=2 -unsharp 0.25x0.25+8+0.065 -dither None -posterize 136 -quality 85 -define jpeg:fancy-upsampling=off -interlace none -colorspace sRGB -strip -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all
   default_thumb: -resize 1920x1080> -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB 
-  # https://github.com/vkuznecovas/hexo-img-optimization
-
-
-  # symbols_count_time: 
+ #  https://github.com/vkuznecovas/hexo-img-optimization
+  
+  
+ # symbols_count_time: 
   # https://github.com/theme-next/hexo-symbols-count-time
   # symbols: true
   # time: true
