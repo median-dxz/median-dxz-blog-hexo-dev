@@ -8,7 +8,6 @@ var imagemin    = require('gulp-imagemin');  //图片压缩组件
 var changed     = require('gulp-changed');   //文件更改校验组件
 var gulpif      = require('gulp-if')         //任务 帮助调用组件
 var plumber     = require('gulp-plumber');   //容错组件（发生错误不跳出任务，并报出错误内容）
-var runSequence = require('run-sequence');   //异步执行组件
 var isScriptAll = true;  //是否处理所有文件，(true|处理所有文件)(false|只处理有更改的文件)
 var isDebug     = true;  //是否调试显示 编译通过的文件
 var del         = require('del');
@@ -90,7 +89,7 @@ gulp.task('compressHtml', function () {
         collapseWhitespace: true,           //压缩HTML
         collapseBooleanAttributes: true,    //省略布尔属性的值  <input checked="true"/> ==> <input />
         removeEmptyAttributes: true,        //删除所有空格作属性值    <input id="" /> ==> <input />
-        removeScriptTypeAttributes: true,   //删除<script>的type="text/javascript"
+        // removeScriptTypeAttributes: true,   //删除<script>的type="text/javascript"
         removeStyleLinkTypeAttributes: true,//删除<style>和<link>的type="text/css"
         removeComments: true,               //清除HTML注释
         minifyJS: true,                     //压缩页面JS
@@ -113,25 +112,23 @@ gulp.task('compressImage', function() {
         interlaced: false,    //类型：Boolean 默认：false 隔行扫描gif进行渲染
         multipass: false      //类型：Boolean 默认：false 多次优化svg直到完全优化
     }
-    return gulp.src('./public/uploads/**/*.*')
-        .pipe(gulpif(!isScriptAll, changed('./public/uploads')))
+    return gulp.src('./uploads/**/*.*')
+        .pipe(gulpif(!isScriptAll, changed('./uploads')))
         .pipe(gulpif(isDebug,debug({title: 'Compress Images:'})))
         .pipe(plumber())
         .pipe(imagemin(option))
-        .pipe(gulp.dest('./public/uploads'));
+        .pipe(gulp.dest('./uploads'));
 });
 
 // 用run-sequence并发执行，同时处理html，css，js，img
-gulp.task('compress', function(cb) {
-    runSequence.options.ignoreUndefinedTasks = true;
-    runSequence(['compressHtml', 'compressCss', 'compressJs'],cb);
-});
+gulp.task('compress', 
+    gulp.parallel('compressHtml', 'compressCss', 'compressJs')
+);
 
 // 执行顺序： 清除public目录 -> 产生原始博客内容 -> 执行压缩混淆
-gulp.task('build', function(cb) {
-    runSequence.options.ignoreUndefinedTasks = true;
-    runSequence('clean', 'generate', 'compress', cb);
-});
+gulp.task('build', 
+    gulp.series('clean', 'generate', 'compress')
+);
 
 // 默认任务
 gulp.task('default', 

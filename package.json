@@ -31,8 +31,7 @@
     "hexo-server": "^0.2.0",
     "hexo-symbols-count-time": "^0.4.4",
     "hexo-wordcount": "^3.0.2",
-    "install": "^0.12.2",
-    "run-sequence": "^2.2.1"
+    "install": "^0.12.2"
   },
   "devDependencies": {
     "gulp": "^4.0.0",

@@ -86,22 +86,22 @@ deploy:
  - type: git
    repo: git@git.coding.net:median-dxz/Median_dxz_Hexo_Blog.git
    
-img_optimization: 
-  exclude: 
-    - css/ # anything that ends with a forward slash will be considered a directory
-    - fancybox/
-    # - banner.jpg # anything else is a file
-  jpg:
-    enabled: true # if false, jpgs will get ignored. Defaults to true
-    params: -resize 760000@ # parameter string to pass to imagemagick's convert function
-  png: # jpg/png/jpeg all have the same fields and can be configured independently
-    enabled: false
-    thumb: -resize 1920x1080> -strip -quality 82
-  jpeg:
-    enabled: false
-  # these parameters will be used for any file types that do not have a params parameter defined in config. You can override these to your own preferred defaults.
-  default_params: -resize 760000@ -filter Triangle -define filter:support=2 -unsharp 0.25x0.25+8+0.065 -dither None -posterize 136 -quality 85 -define jpeg:fancy-upsampling=off -interlace none -colorspace sRGB -strip -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all
-  default_thumb: -resize 1920x1080> -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB 
+# img_optimization: 
+#   exclude: 
+#     - css/ # anything that ends with a forward slash will be considered a directory
+#     - fancybox/
+#     # - banner.jpg # anything else is a file
+#   jpg:
+#     enabled: true # if false, jpgs will get ignored. Defaults to true
+#     params: -resize 760000@ # parameter string to pass to imagemagick's convert function
+#   png: # jpg/png/jpeg all have the same fields and can be configured independently
+#     enabled: false
+#     thumb: -resize 1920x1080> -strip -quality 82
+#   jpeg:
+#     enabled: false
+#   # these parameters will be used for any file types that do not have a params parameter defined in config. You can override these to your own preferred defaults.
+#   default_params: -resize 760000@ -filter Triangle -define filter:support=2 -unsharp 0.25x0.25+8+0.065 -dither None -posterize 136 -quality 85 -define jpeg:fancy-upsampling=off -interlace none -colorspace sRGB -strip -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all
+#   default_thumb: -resize 1920x1080> -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB 
  #  https://github.com/vkuznecovas/hexo-img-optimization
   
   
