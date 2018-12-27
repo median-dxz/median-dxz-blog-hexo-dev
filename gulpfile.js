@@ -104,19 +104,32 @@ gulp.task('compressHtml', function () {
         .pipe(gulp.dest('./public'));
 });
 
-// 压缩 public/uploads 目录内图片
+// 压缩 public/img 目录内图片
 gulp.task('compressImage', function() {
-    var option = {
-        optimizationLevel: 4, //类型：Number  默认：3  取值范围：0-7（优化等级）
-        progressive: true,    //类型：Boolean 默认：false 无损压缩jpg图片
-        interlaced: false,    //类型：Boolean 默认：false 隔行扫描gif进行渲染
-        multipass: false      //类型：Boolean 默认：false 多次优化svg直到完全优化
-    }
+    return gulp.src('./public/img/**/*.*')
+        .pipe(gulpif(!isScriptAll, changed('./public/img')))
+        .pipe(gulpif(isDebug,debug({title: 'Compress Images:'})))
+        .pipe(plumber())
+        .pipe(imagemin([
+            imagemin.gifsicle({interlaced: true}),
+            imagemin.jpegtran({progressive: true}),
+            imagemin.optipng({optimizationLevel: 4}),
+        ]))
+        .pipe(gulp.dest('./public/img'));
+});
+
+// 压缩 uploads 目录内图片
+gulp.task('ImageAsize', function() {
     return gulp.src('./uploads/**/*.*')
         .pipe(gulpif(!isScriptAll, changed('./uploads')))
         .pipe(gulpif(isDebug,debug({title: 'Compress Images:'})))
         .pipe(plumber())
-        .pipe(imagemin(option))
+        .pipe(imagemin([
+            imagemin.gifsicle({interlaced: true}),
+            imagemin.jpegtran({progressive: true}),
+            imagemin.optipng({optimizationLevel: 4}),
+        ]))
+
         .pipe(gulp.dest('./uploads'));
 });
 
