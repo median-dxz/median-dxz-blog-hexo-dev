@@ -12,7 +12,7 @@ yarn.lock
 package-lock.json
 
 # Ignore optional external libraries
-source/lib/*
+themes/next/source/lib/*
 
 # Track internal libraries & Ignore unused verdors files
 themes/next/source/lib/font-awesome/less/
@@ -21,10 +21,12 @@ themes/next/source/lib/font-awesome/scss/
 
 !themes/next/source/lib/jquery/
 
-themes/next/ource/lib/ua-parser-js/*
+themes/next/source/lib/ua-parser-js/*
 !themes/next/source/lib/ua-parser-js/dist/
+
+!themes/next/source/lib/velocity/
 
 themes/*/
 !themes/next/
-!themes/next/source/lib/velocity/
+!themes/LastUpdateWorkingTree/
 themes/hexo-theme-next/
