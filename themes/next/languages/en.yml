@@ -3,8 +3,8 @@ title:
   category: Category
   tag: Tag
   schedule: Schedule
-  project:Project
-  img:Gallery
+  project: Project
+  img: Gallery
 
 menu:
   home: Home
@@ -16,8 +16,8 @@ menu:
   schedule: Schedule
   sitemap: Sitemap
   commonweal: Commonweal 404
-  img:Gallery
-  project:Project
+  img: Gallery
+  project: Project
 
 sidebar:
   overview: Overview
