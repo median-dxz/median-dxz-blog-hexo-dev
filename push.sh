@@ -1,1 +1,1 @@
-glup && hexo d && git add . && git commit -m "updata weekly" && git push
+gulp && hexo d && git add . && git commit -m "update" && git push
