@@ -1,4 +1,0 @@
-+ lodash@4.17.11
-updated 1 package and audited 16368 packages in 16.198s
-found 7 vulnerabilities (5 low, 2 moderate)
-  run `npm audit fix` to fix them, or `npm audit` for details
