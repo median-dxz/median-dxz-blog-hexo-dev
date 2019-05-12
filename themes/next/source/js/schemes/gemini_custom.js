@@ -15,7 +15,7 @@ function randbkg() {
     });
   } else {
     $("body").css({
-      "background-image": 'url("./img/bg_alt_' + String(bkg_n) + '.jpg")'
+      "background-image": 'url("/img/bg_alt_' + String(bkg_n) + '.jpg")'
     });
   }
 }

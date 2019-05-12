@@ -87,17 +87,17 @@ git commit -m "my version"
 
 执行`git pull`：
 
-![2019-04-17-001.png](https://i.loli.net/2019/04/17/5cb6abd9f3485.png)
+![](https://i.loli.net/2019/04/17/5cb6abd9f3485.png)
 
 然后果然冲突了！
 
 于是乎，用VSC打开主题文件夹，在源代码管理中进行冲突的解决，其中当前更改就是你的版本，而传入的更改就是官方的版本。
 
-![2019-04-17-002.png](https://i.loli.net/2019/04/17/5cb6abf953c9a.png)
+![](https://i.loli.net/2019/04/17/5cb6abf953c9a.png)
 
 最后commit！
 
-![2019-04-17-003.png](https://i.loli.net/2019/04/17/5cb6fd5a949aa.png)
+![](https://i.loli.net/2019/04/17/5cb6fd5a949aa.png)
 
 可以看到，主题已经成功更新了。
 

@@ -52,6 +52,7 @@ $(document).ready(function() {
     });
   }
 
+  hito_show();
   initAffix();
   resizeListener();
 });

@@ -118,7 +118,7 @@ disable_baidu_transformation: false
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post / page titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
@@ -443,10 +443,10 @@ tagcloud:
 # ---------------------------------------------------------------
 
 font:
-  enable: true
+  enable: false
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
-  host: https://fonts.googleapis.com
+  host: https://fonts.loli.net
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -456,7 +456,7 @@ font:
   # Global font settings used for all elements in <body>.
   global:
     external: true
-    family: Helvetica
+    family: Lucida Sans Unicode
     size:
 
   # Font settings for Headlines (H1, H2, H3, H4, H5, H6).
@@ -469,8 +469,8 @@ font:
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
-    external: false
-    family: Helvetica
+    external: true
+    family: Noto Serif SC
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
@@ -964,7 +964,7 @@ motion:
     post_block: fadeIn
     post_header: slideDownIn
     post_body: slideDownIn
-    coll_header: slideLeftIn
+    coll_header: perspectiveLeftIn
     # Only for Pisces | Gemini.
     sidebar: slideUpIn
 

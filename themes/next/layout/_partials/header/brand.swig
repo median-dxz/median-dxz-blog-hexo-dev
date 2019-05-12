@@ -21,6 +21,7 @@
       {% else %}
         <p class="site-subtitle">{{ subtitle }}</p>
       {% endif %}
+        <div id="hitotxt"></div>
     {% endif %}
     {% if theme.custom_logo.enable and theme.custom_logo.image and (theme.scheme === 'Gemini' or theme.scheme === 'Pisces') %}
       <a>
