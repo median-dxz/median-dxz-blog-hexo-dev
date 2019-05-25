@@ -7,7 +7,7 @@ tags: [Hexo,Blog,Project]
 top: 7
 ---
 
-![](https://median-1256852104.cos.ap-beijing.myqcloud.com/img/%5BTVKD%5DX144_029.png)
+![](https://i.loli.net/2019/05/06/5ccfc7e4ba589.jpg)
 
 # Hexo Blog定制之路
 
@@ -19,7 +19,21 @@ top: 7
 
 ### Todo
 
-本项目挂在Coding.net上，项目TODO地址:[这里](https://dev.tencent.com/u/median-dxz/p/Median_dxz_Hexo_Blog/tasks)
+本项目挂在Coding.net上，项目TODO：
+
+- [ ] 方便的添加图片
+- [ ] 换计数器
+- [ ] 动画效果
+- [ ] 字体多元
+- [ ] 标签云
+- [ ] 文件压缩及缓存机制
+- [ ] 格式化ht，js，css
+- [x] 一言
+- [ ] 音乐
+- [ ] 字体：Raleway|core_sans_n45_regular
+- [ ] 新建文章选择分类
+
+github上项目源码：<https://github.com/median-dxz/median-dxz-blog-hexo-dev>
 
 
 
@@ -32,6 +46,8 @@ top: 7
 2018.11.25 更新了计划表、背景图片，引入几个cdn加载的js，添加了背景动画，更改了字体设置
 
 2018.12.08 加入本地搜索功能
+
+2019.5.6 断更了好久……主要添加了随机背景，一言功能，修改了字体
 
 
 
@@ -89,4 +105,77 @@ topindex_generator:
 之后就可以在每篇文章中设置top属性了
 
 Link -> [here](https://github.com/amlove2/hexo-generator-topindex)
+
+#### 自动打开typora
+
+```js
+var spawn = require('child_process').exec;
+hexo.on('new', function(data){
+  spawn('start  "C:\Program Files\Typora\Typora.exe" ' + data.path);
+});
+```
+
+#### 更改统计量
+
+```js
+    <script type="text/javascript">
+        var o = false
+        $("#busuanzi_value_site_uv").bind("DOMNodeInserted", function () {
+            console.log($("#busuanzi_value_site_uv").text())
+            if(o == true){
+                return
+            }
+            o = true
+            var x = Number($("#busuanzi_value_site_uv").text())
+            x += 101
+            $("#busuanzi_value_site_uv").text(x.toString())
+            console.log($("#busuanzi_value_site_uv").text())
+        });
+    </script>
+```
+
+#### 评论系统
+
+```yaml
+gitalk:
+enable: true
+github_id: ‘median-dxz’
+repo: ‘gitalk-for-median-dxz-blog’
+client_id: ‘d7401b1f9011525767e5’
+client_secret: ‘f4d903e0fb77b8010c3fab504b052560c8aa0f8b’
+admin_user: [‘median-dxz’]
+distraction_free_mode: true # Facebook-like distraction free mode
+```
+
+#### 标签图标
+
+更改标签前的图标
+
+***post.swig***
+
+```html
+<i class="fa fa-tag"></i>
+```
+
+#### 本地搜索功能
+
+Hexo Local Search
+
+第一步：添加搜索插件
+
+```bash
+npm install hexo-generator-search --save
+
+npm install hexo-generator-searchdb --save
+```
+
+第二步：在本地站点配置文件下开启搜索
+
+```yaml
+search:
+path: search.xml
+field: post
+format: html
+limit: 100
+```
 
