@@ -25,7 +25,7 @@ top: 7
 - [ ] 换计数器
 - [ ] 动画效果
 - [ ] 字体多元
-- [ ] 标签云
+- [x] 标签云
 - [ ] 文件压缩及缓存机制
 - [ ] 格式化ht，js，css
 - [x] 一言
@@ -179,3 +179,58 @@ format: html
 limit: 100
 ```
 
+#### 标签云
+
+先使用npm安装`hexo-tag-cloud^2.1.1`
+
+然后可以在_config.yml进行配置
+
+```yaml
+# hexo-tag-cloud
+tag_cloud:
+    textFont: 'PT Mono'
+    textColor: '#333'
+    textHeight: 25
+    outlineColor: '#E2E1D1'
+    maxSpeed: 0.15 # range from [0.01 ~ 1]
+```
+
+最后在合适的地方植入以下代码：
+
+```html
+{#\themes\next\layout\page.swig#}
+
+{# tagcloud page support #}
+        {% if page.type === 'tags' %}
+           <div class="tag-cloud">
+             {#<div class="tag-cloud-title">
+               {% set visibleTags = 0 %}
+               {% for tag in site.tags %}
+                 {% if tag.length %}
+                   {% set visibleTags += 1 %}
+                 {% endif %}
+               {% endfor %}
+               {{ _p('counter.tag_cloud', visibleTags) }}
+             </div>
+
+             <div class="tag-cloud-tags">
+               {% if not theme.tagcloud %}
+                 {{ tagcloud({min_font: 12, max_font: 30, amount: 200, color: true, start_color: '#ccc', end_color: '#111'}) }}
+               {% else %}
+                 {{ tagcloud({min_font: theme.tagcloud.min, max_font: theme.tagcloud.max, amount: theme.tagcloud.amount, color: true, start_color: theme.tagcloud.start, end_color: theme.tagcloud.end}) }}
+               {% endif %}
+             </div> 
+            这里是原来的#}
+            {% if site.tags.length >= 1 %}
+                <script type="text/javascript" charset="utf-8" src="{{ url_for('/js/tagcloud.js') }}"></script>
+                <script type="text/javascript" charset="utf-8" src="{{ url_for('/js/tagcanvas.js') }}"></script>
+                <div class="widget-wrap">
+                  <h3 class="widget-title">Tag Cloud</h3>
+                  <div id="myCanvasContainer" class="widget tagcloud">
+                    <canvas width="300" height="300" id="resCanvas" style="width=100%">
+                      {{ list_tags() }}
+                    </canvas>
+                  </div>
+                </div>
+            {% endif %}
+```
