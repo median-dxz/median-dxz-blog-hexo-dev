@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Median_dxz's &#10; International Space Station
-subtitle: Median_dxz的国际空间站
+title: Shadow of the Storm
+subtitle: Median_dxz's Blog
 description: 似是不知梦的缘故，流离之人追逐幻影
 author: Median_dxz
 language: zh-CN
@@ -43,7 +43,7 @@ highlight:
   enable: true
   line_number: false
   auto_detect: false
-  tab_replace:
+  tab_replace: true
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
