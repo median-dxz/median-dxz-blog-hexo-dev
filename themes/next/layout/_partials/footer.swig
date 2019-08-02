@@ -56,7 +56,6 @@
 {% endif %}
     &nbsp;&nbsp;|&nbsp;&nbsp; Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a>
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></br>
-	<script src="//cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script>
     <span id="busuanzi_container_site_uv" style='display:none'>View <span id="busuanzi_value_site_uv">"loading..."</span> Times</span>&nbsp;&nbsp;|&nbsp;&nbsp; 
     嗯，已经写了<span class="post-count">{{ totalcount(site) }}</span>字节了！
     <script type="text/javascript">

@@ -28,6 +28,7 @@ i18n_dir: :lang
 skip_render: 
   - img/**
   - project/**
+  - assets/**
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -87,7 +88,15 @@ search:
 deploy:
  - type: git
    repo: git@git.coding.net:median-dxz/Median_dxz_Hexo_Blog.git
-   
+
+# aplayer:
+  # cdn: http://xxx/aplayer.min.js                # 引用 APlayer.js 外部 CDN 地址 (默认不开启)
+  # style_cdn: http://xxx/aplayer.min.css         # 引用 APlayer.css 外部 CDN 地址 (默认不开启)
+  # meting: true                                  # MetingJS 支持
+  # meting_api: http://xxx/api.php                # 自定义 Meting API 地址
+  # meting_cdn: http://xxx/Meing.min.js           # 引用 Meting.js 外部 CDN 地址 (默认不开启)
+  # asset_inject: true                            # 自动插入 Aplayer.js 与 Meting.js 资源脚本, 默认开启
+
 # img_optimization: 
 #   exclude: 
 #     - css/ # anything that ends with a forward slash will be considered a directory
