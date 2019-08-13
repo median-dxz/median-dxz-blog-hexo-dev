@@ -15,7 +15,9 @@ comments: false
 <div id="def-aplayer"></div>
 <script type="text/javascript">
 $(document).ready(() => {
-    getMusicMeta(27698501,ap_def,"netease",addMusicMeta);
+    getMusicMetaAsync(27698501,"netease").done((obj)=>{
+		addMusicMeta(obj,ap_def);
+	});
 });
 </script>
 
