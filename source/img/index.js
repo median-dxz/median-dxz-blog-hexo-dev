@@ -1,14 +1,36 @@
 /* eslint-disable no-undef */
 /*global $ */
+var img_num = 9;
 
 $(document).ready(() => {
-  for (let i = 1; i <= 9; i++) {
+  for (let i = 1; i <= img_num; i++) {
     AddImg(i);
   }
-  [471795, 426502173, 26125390, 30431342].forEach(v => {
-    getMusicMeta(v, ap_img, "netease", addMusicMeta);
-  });
-  getMusicMeta("000uX2eS4NlvrX", ap_img, "tencent", addMusicMeta);
+
+  let songid = [471795, 426502173, 26125390, 30431342];
+  let song = new Array(5);
+
+  getMusicMetaAsync(songid[0], "netease")
+    .done(v => {
+      song[0] = v;
+    })
+    .then(()=>getMusicMetaAsync(songid[1], "netease"))
+    .done(v => {
+      song[1] = v;
+    })
+    .then(()=>getMusicMetaAsync(songid[2], "netease"))
+    .done(v => {
+      song[2] = v;
+    })
+    .then(()=>getMusicMetaAsync(songid[3], "netease"))
+    .done(v => {
+      song[3] = v;
+    })
+    .then(()=>getMusicMetaAsync("000uX2eS4NlvrX", "tencent"))
+    .done(v => {
+      song[4] = v;
+      addMusicMeta(song, ap_img);
+    });
 });
 
 function AddImg(img_id) {

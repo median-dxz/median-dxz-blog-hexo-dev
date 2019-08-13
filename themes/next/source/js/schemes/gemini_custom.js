@@ -1,4 +1,4 @@
-var bkg_n = (Math.floor(Math.random() * 10) % 8) + 1;
+var bkg_n = (Math.floor(Math.random() * 10) % 9) + 1;
 
 $(document).on("ready", () => {
   randbkg();
