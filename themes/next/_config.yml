@@ -163,7 +163,7 @@ menu:
   # tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
-  schedule: /schedule/ || th-list
+  timechannel: /timechannel/ || codepen
   project: /project/ || folder-open
   img: /img/ || image
   # commonweal: /404/ || heartbeat

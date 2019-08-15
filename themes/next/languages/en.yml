@@ -2,7 +2,7 @@ title:
   archive: Archive
   category: Category
   tag: Tag
-  schedule: Schedule
+  timechannel: About Me
   project: Project
   img: Gallery
 
@@ -13,7 +13,7 @@ menu:
   tags: Tags
   about: About
   search: Search
-  schedule: Schedule
+  timechannel: About Me
   sitemap: Sitemap
   commonweal: Commonweal 404
   img: Gallery
