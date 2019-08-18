@@ -4,7 +4,7 @@ date: 2018-08-26 22:28:33
 comments: false
 ---
 
-![E.M.T](26.jpg)
+![E.M.T](57536854_p0.png)
 
 <div id="def-aplayer"></div>
 <script type="text/javascript">
@@ -23,7 +23,7 @@ $(document).ready(() => {
 
 不断前行
 
-等我毕业了一定自己重写一下这个page，太丑了……
+等我毕业了一定自己重写一下这个 page，太丑了……
 
 ### 厨力展示柜[Achievement]
 
@@ -35,7 +35,7 @@ $(document).ready(() => {
 
 星际 APM120 白银菜鸡
 
-战网ID：` #51614`
+战网 ID：`#51614`
 
 ---
 
@@ -51,23 +51,21 @@ OIER 退役
 
 E.M.T(喜欢艾米莉亚.jpg)
 
-
-
 ### 正在开展的项目[Project]
 
 - [ ] system call > warp 北京邮电大学
 
+### BLOG 搭建[Build]
 
-
-### BLOG搭建[Build]
-
-| 项目        | 工具链         |
-| :---------- | -------------- |
-| blog框架    | hexo           |
-| blog托管    | coding pages   |
-| blog主题    | next           |
-| 音乐支持    | Aplayer        |
-| 音乐api支持 | api.i-meto.com |
+| 项目          | 工具链            |
+| :------------ | ----------------- |
+| blog 框架     | hexo              |
+| blog 托管     | coding pages      |
+| blog 主题     | next              |
+| 音乐支持      | Aplayer           |
+| 音乐 api 支持 | api.i-meto.com    |
+| 评论系统      | gittalk           |
+| 图床          | i.loli.net(sm.ms) |
 
 ---
 
@@ -81,4 +79,3 @@ E.M.T(喜欢艾米莉亚.jpg)
 
 <div style="float:right">2018.11.25 记</div>
 <br>
-
