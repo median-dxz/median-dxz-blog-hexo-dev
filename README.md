@@ -17,3 +17,4 @@ Median - dxz ' s Blog Project
 - [ ] 新建文章选择分类
 - [ ] 重写about，project等定制页面
 - [ ] gulp打包不支持es6
+- [ ] 定制的文章置顶又炸了……另外里面又有一个true
