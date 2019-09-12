@@ -9,7 +9,7 @@ $(window).resize(() => {
 });
 
 function randbkg() {
-  if (window.innerWidth <= 1200) {
+  if (window.innerWidth <= 1000) {
     $("body").css({
       "background-image": "none"
     });
