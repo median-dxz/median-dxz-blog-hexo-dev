@@ -4,7 +4,7 @@ date: 2018-08-26 22:28:33
 comments: false
 ---
 
-![E.M.T](57536854_p0.png)
+![E.M.T](58088075_p0_master1200.jpg)
 
 <div id="def-aplayer"></div>
 <script type="text/javascript">
