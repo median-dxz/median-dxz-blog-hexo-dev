@@ -1,5 +1,5 @@
 {
-	"tot": 17,
+	"tot": 19,
 	"hitokotos": [{
 		"content": "似是不知梦的缘故，流离之人追逐幻影",
 		"quote": "江南 《龙族II·亡者之瞳》"
@@ -25,7 +25,7 @@
 		"content": "也请让我相信，你一直以来所相信的事吧：活着，是件美好的事。",
 		"quote": "立华奏 《Angel Beats!》"
 	}, {
-		"content": "People come and go, we struggled with laughter and tears, &#10;and all the years have gone by,still Ihave you by my side. ",
+		"content": "People come and go, we struggled with laughter and tears, &#10;and all the years have gone by,still I have you by my side. ",
 		"quote": "江南 《龙族III·黑月之潮》"
 	}, {
 		"content": "这是以人心编织而成的，罪恶王冠。",
@@ -51,5 +51,15 @@
 	}, {
 		"content": "“喜欢一个人需要理由么？” &#10;“不需要么？”&#10; “需要么？”",
 		"quote": "《大话西游》"
-	}]
+	}, {
+		"content": "要么你就像一个英雄一样死去，要么活着，直到看着自己变成了一个恶棍。",
+		"quote": "哈维·登特《蝙蝠侠:黑暗骑士》"
+	}, {
+		"content": "当你在凝视深渊的时候，深渊也正在凝视着你",
+		"quote": "尼采《善恶的彼岸》"
+	}, {
+		"content": "幾億の夢のように消え去れる日を&#10;犹如上亿的梦般逝去的时光&#10;見送った&#10;我目送它们&#10;手を振った&#10;挥动手臂&#10;ありがとう、と&#10;说出谢谢",
+		"quote": "Lia《My Soul, Your Beats!》"
+	}
+	]
 }

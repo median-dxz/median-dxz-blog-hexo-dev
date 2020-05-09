@@ -27,9 +27,9 @@ top: 7
 - [ ] 字体多元
 - [x] 标签云
 - [ ] 文件压缩及缓存机制
-- [ ] 格式化ht，js，css
+- [x] 格式化ht，js，css
 - [x] 一言
-- [ ] 音乐
+- [x] 音乐
 - [ ] 字体：Raleway|core_sans_n45_regular
 - [ ] 新建文章选择分类
 
@@ -48,6 +48,10 @@ github上项目源码：<https://github.com/median-dxz/median-dxz-blog-hexo-dev>
 2018.12.08 加入本地搜索功能
 
 2019.5.6 断更了好久……主要添加了随机背景，一言功能，修改了字体
+
+2019.8.2 添加基于aplayer和[Meting](https://github.com/metowolf/Meting)的作者api站的音乐支持
+
+2019.8.15 应该是最后一次更新了，高三真的没什么精力来打理了，索性趁最后一个小假期把零碎的更新更完
 
 
 
@@ -69,7 +73,7 @@ hexo的搭建
 ### 点滴
 
 
-#### Hexo Local Search
+#### Hexo Local Search(本地搜索功能)
 
 第一步：添加搜索插件
 
@@ -157,27 +161,7 @@ distraction_free_mode: true # Facebook-like distraction free mode
 <i class="fa fa-tag"></i>
 ```
 
-#### 本地搜索功能
-
-Hexo Local Search
-
-第一步：添加搜索插件
-
-```bash
-npm install hexo-generator-search --save
-
-npm install hexo-generator-searchdb --save
-```
-
-第二步：在本地站点配置文件下开启搜索
-
-```yaml
-search:
-path: search.xml
-field: post
-format: html
-limit: 100
-```
+#### 
 
 #### 标签云
 
@@ -234,3 +218,126 @@ tag_cloud:
                 </div>
             {% endif %}
 ```
+
+
+
+#### JavaScript实现简单的随机背景和一言功能
+
+首先找到next主题加载主题时的js入口(其实用其他入口也行，例如custom下的header.swig)
+
+```javascript
+//  themes/next/layout/_scripts/schemes/gemini.swig
+{% include 'pisces.swig' %}
+
+<script src="/assets/js/randbkg.js"></script> 
+<script src="/assets/js/hito/hitokoto.js"></script> 
+```
+
+然后你可以在这两个js下使用jq获取相关元素，获取相关信息（如一言的json，可以自己写，也可以用现成的服务）并添加你想要的内容就好了。
+
+这里就不放源码（~~太丑了~~）了，想看的可以看项目下`\source\assets\js`中的代码，简单说一下我的实现。
+
+
+
+随机背景就是随机一个数字，然后获取图片，设置body的样式。
+
+随机一言也是随机一个数字，然后从一个json中获取一条一言，然后用jq加入到预先放置的一个div（next主题模板）中，配合css样式。
+
+
+
+简单说下几个坑
+
+1.在**Blog**的`_config.yml`文件中添加：
+
+```yml
+  skip_render: 
+  - assets/**
+```
+
+2.找到next主题中添加jq库的相关实现，添加到自定义header中：
+
+```javascript
+<script src="/lib/jquery/index.js?v=2.1.3"></script>
+```
+
+
+
+#### 引入并使用Aplayer
+
+```javascript
+var ap_img, ap_def;
+
+$(document).ready(() => {
+  if (document.getElementById("img-aplayer") !== null) {
+    ap_img = new APlayer({
+      container: document.getElementById("img-aplayer"),
+      fixed: true,
+      lrcType: 1,
+      listMaxHeight: 90,
+      listFolded: true,
+      audio: []
+    });
+  }
+  if (document.getElementById("def-aplayer") !== null) {
+    ap_def = new APlayer({
+      container: document.getElementById("def-aplayer"),
+      lrcType: 3,
+      listMaxHeight: 90,
+      listFolded: true,
+      audio: []
+    });
+  }
+});
+
+function getMusicMetaAsync(songid, plat) {
+  var url = "https://api.i-meto.com/meting/api?server=%plat%&type=song&id=%id%&r=song";
+  url = url.replace("%id%", String(songid)).replace("%plat%", plat);
+
+  var rep;
+  var defer = $.Deferred();
+
+  var f = $.getJSON(url, (data, status, xhr) => {
+    if (status === "success") {
+      rep = data[0];
+      defer.resolve({ name: rep.name, artist: rep.artist, url: rep.url, cover: rep.cover, lrc: rep.lrc });
+    }
+  });
+
+  return defer;
+}
+
+function addMusicMeta(mobj, ap) {
+  ap.list.add(mobj);
+}
+```
+
+在header中引入js和aplayer相关的文件，然后注意要异步处理请求。可以使用多个aplyer实例定制不同的使用场景，然后使用的时候类似这样：
+
+```javascript
+   getMusicMetaAsync(27698501,"netease").done((obj)=>{
+      addMusicMeta(obj,ap_def);
+   });
+```
+
+jq的deferred类似es6的promise，虽然不是很懂，而且我至今也不会在循环中串行异步处理，但是只要知道若是在异步函数返回一个异步对象就可以链式调用，你就能像我这样使用很丑的代码写出：
+
+```javascript
+	
+  getMusicMetaAsync(songid[0], "netease")
+    .done(v => {
+      song[0] = v;
+    })
+    .then(()=>getMusicMetaAsync(songid[1], "netease"))
+    .done(v => {
+      song[1] = v;
+    })
+    .then(()=>getMusicMetaAsync(songid[2], "netease"))
+    .done(v => {
+      song[2] = v;
+    })
+    //省略好多次调用...
+    });
+});
+```
+
+如果你要添加歌单可以用Meting作者的[MetingJS](https://github.com/metowolf/MetingJS)

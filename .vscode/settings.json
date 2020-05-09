@@ -1,3 +1,4 @@
 {
     "eslint.enable": true,
+    "prettier.printWidth": 120,
 }

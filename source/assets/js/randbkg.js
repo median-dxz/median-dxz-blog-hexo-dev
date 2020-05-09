@@ -1,4 +1,4 @@
-var bkg_n = (Math.floor(Math.random() * 10) % 8) + 1;
+var bkg_n = (Math.floor(Math.random() * 10) % 9) + 1;
 
 $(document).on("ready", () => {
   randbkg();
@@ -9,7 +9,7 @@ $(window).resize(() => {
 });
 
 function randbkg() {
-  if (window.innerWidth <= 1200) {
+  if (window.innerWidth <= 1000) {
     $("body").css({
       "background-image": "none"
     });

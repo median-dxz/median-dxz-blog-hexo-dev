@@ -4,7 +4,7 @@ title:
   category: 分类
   tag: 标签
   img: 图库
-  schedule: 填坑预警
+  timechannel: 时光隧道
   project: 项目
 menu:
   home: 首页
@@ -13,7 +13,7 @@ menu:
   tags: 标签
   about: 关于
   search: 搜索
-  schedule: 填坑预警
+  timechannel: 时光隧道
   img: 图库
   project: 项目
   sitemap: 站点地图
