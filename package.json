@@ -23,7 +23,7 @@
     "hexo-symbols-count-time": "^0.6.0",
     "hexo-tag-cloud": "^2.1.1",
     "hexo-wordcount": "^6.0.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "lodash.template": "^4.5.0"
   },
   "devDependencies": {
