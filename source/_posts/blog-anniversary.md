@@ -2,7 +2,6 @@
 title: 周年祭|风暴的彼岸
 categories:
   - AWasteLand
-top: 1
 date: 2019-06-28 22:02:51
 tags:
   - misc

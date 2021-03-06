@@ -1,0 +1,213 @@
+# language
+zh-CN:
+  name: 简体中文
+  title:
+    archive: 存档
+    category: 分类
+    tag: 标签
+    
+  menu:
+    home: 首页
+    archives: 存档
+    categories: 分类
+    tags: 标签
+    about: 关于
+    search: 搜索
+    sitemap: 站点地图
+    commonweal: 404 NOT FOUND
+    timechannel: 时光隧道
+    project: 项目
+    images: 图库
+  sidebar:
+    overview: 站点概览
+    toc: 文章目录
+  post:
+    posted: 发表于
+    edited: 更新于
+    created: 创建时间
+    modified: 修改时间
+    edit: 编辑
+    in: 分类于
+    read_more: 阅读全文
+    untitled: 未命名
+    sticky: 置顶
+    views: 阅读次数
+    related_posts: 相关文章
+    copyright:
+      author: 本文作者
+      link: 本文链接
+      post_author: 原作者
+      post_link: 原文链接
+      license_title: 版权声明
+      license_content: "本博客所有文章除特别声明外，均采用 %s 许可协议。转载请注明出处！"
+  footer:
+    powered: "由 %s 强力驱动"
+    total_views: 总访问量
+    total_visitors: 总访客量
+  counter:
+    tag_cloud:
+      zero: 暂无标签
+      one: 目前共计 1 个标签
+      other: "目前共计 %d 个标签"
+    categories:
+      zero: 暂无分类
+      one: 目前共计 1 个分类
+      other: "目前共计 %d 个分类"
+    archive_posts:
+      zero: 暂无日志。
+      one: 目前共计 1 篇日志。
+      other: "目前共计 %d 篇日志。"
+  state:
+    posts: 日志
+    tags: 标签
+    categories: 分类
+  search:
+    placeholder: 搜索...
+    empty: "没有找到任何搜索结果：%s"
+    hits_time: "找到 %s 个搜索结果（用时 %s 毫秒）"
+    hits: "找到 %s 个搜索结果"
+  cheers:
+    um: 嗯..
+    ok: 还行
+    nice: 不错
+    good: 很好
+    great: 非常好
+    excellent: 太棒了
+  keep_on: 继续努力。
+  symbol:
+    comma: "，"
+    period: "。"
+    colon: "："
+  reward:
+    donate: 赞赏
+    wechatpay: 微信
+    alipay: 支付宝
+    paypal: PayPal
+    bitcoin: 比特币
+  follow_me:
+    welcome: 欢迎关注我的其它发布渠道
+  accessibility:
+    nav_toggle: 切换导航栏
+    prev_page: 上一页
+    next_page: 下一页
+  symbols_count_time:
+    count: 本文字数
+    count_total: 站点总字数
+    time: 阅读时长
+    time_total: 站点阅读时长
+    time_minutes: 分钟
+
+  en:
+    name: English
+
+    title:
+      archive: Archive
+      category: Category
+      tag: Tag
+      schedule: Schedule
+
+    menu:
+      home: Home
+      archives: Archives
+      categories: Categories
+      tags: Tags
+      about: About
+      search: Search
+      schedule: Schedule
+      sitemap: Sitemap
+      commonweal: Commonweal 404
+      timechannel: timechannel
+      project: project
+      images: images
+    sidebar:
+      overview: Overview
+      toc: Table of Contents
+
+    post:
+      posted: Posted on
+      edited: Edited on
+      created: Created
+      modified: Modified
+      edit: Edit this post
+      in: In
+      read_more: Read more
+      untitled: Untitled
+      sticky: Sticky
+      views: Views
+      related_posts: Related Posts
+      copyright:
+        author: Post author
+        link: Post link
+        post_author: Written by
+        post_link: This article originally appeared on
+        license_title: Copyright Notice
+        license_content: "All articles in this blog are licensed under %s unless stating additionally."
+
+    footer:
+      powered: "Powered by %s"
+      total_views: Total Views
+      total_visitors: Total Visitors
+
+    counter:
+      tag_cloud:
+        zero: No tags
+        one: 1 tag in total
+        other: "%d tags in total"
+
+      categories:
+        zero: No categories
+        one: 1 category in total
+        other: "%d categories in total"
+
+      archive_posts:
+        zero: No posts.
+        one: 1 post.
+        other: "%d posts in total."
+
+    state:
+      posts: posts
+      tags: tags
+      categories: categories
+
+    search:
+      placeholder: Searching...
+      empty: "We didn't find any results for the search: %s"
+      hits_time: "%s results found in %s ms"
+      hits: "%s results found"
+
+    cheers:
+      um: Um..
+      ok: OK
+      nice: Nice
+      good: Good
+      great: Great
+      excellent: Excellent
+
+    keep_on: Keep on posting.
+
+    symbol:
+      comma: ", "
+      period: ". "
+      colon: ": "
+
+    reward:
+      donate: Donate
+      wechatpay: WeChat Pay
+      alipay: Alipay
+      paypal: PayPal
+      bitcoin: Bitcoin
+
+    follow_me:
+      welcome: Welcome to my other publishing channels
+
+    accessibility:
+      nav_toggle: Toggle navigation bar
+      prev_page: Previous page
+      next_page: Next page
+
+    symbols_count_time:
+      count: Symbols count in article
+      count_total: Symbols count total
+      time: Reading time
+      time_total: Reading time total
+      time_minutes: mins.

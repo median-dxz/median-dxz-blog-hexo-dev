@@ -1,0 +1,18 @@
+<div class="custom_footer">
+  <div class="powered">
+    <span id="Hexo">
+      Powered by: <a href="https://hexo.io" style="font-weight: bold">Hexo</a>
+      <%= site.data.custom_info.version.hexo%> |
+    </span>
+    <span id="NexT">
+      Theme: <a href="https://https://theme-next.js.org/" style="font-weight: bold">NexT.Gemini</a>
+      <%= site.data.custom_info.version.next%> |
+    </span>
+    <span id="Host"> Hosted by: <a href="https://coding.net/" style="font-weight: bold">Coding Pages</a> </span>
+  </div>
+  <div class="statistics">
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span>已经写了<%= symbolsCountTotal(site) %>字节啦! </span><i class="far fa-hdd"></i>
+    <span id="busuanzi_container_site_uv"> View <span id="busuanzi_value_site_uv"></span> times! </span>
+  </div>
+</div>

@@ -2,7 +2,6 @@
 title: '[hexo]手动更新next主题记'
 categories:
   - Technology
-top: 1
 date: 2019-04-15 18:28:44
 tags:
  - next

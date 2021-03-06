@@ -4,7 +4,7 @@ categories:
   - Technology
 date: 2018-11-25 17:01:49
 tags: [Hexo,Blog,Project]
-top: 7
+sticky: 7
 ---
 
 ![](https://i.loli.net/2019/05/06/5ccfc7e4ba589.jpg)
