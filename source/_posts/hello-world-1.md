@@ -1,7 +1,7 @@
 ---
 title: hello-world
 date: 2018-06-28 16:05:11
-sticky:
+tags:
 - misc
 categories:
 - AWasteLand

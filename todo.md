@@ -10,6 +10,7 @@
 - [x] index_generator
 - [ ] Metadata elements
 - [ ] Pagination
+- [ ] cros-proxy
 - [ ] https://prettier.io/docs/en/options.html
 - [ ] https://github.com/prettier/eslint-config-prettier
 - [ ] 分类页样式

@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 # URL
 url: https://median-dxz.xyz
 root: /
-permalink: :category/:year:month/:post_title/
+permalink: :category/:year:month/:title/
 permalink_defaults:
 
 pretty_urls:
