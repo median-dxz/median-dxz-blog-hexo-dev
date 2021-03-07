@@ -1,19 +1,11 @@
 ---
 title: 时光隧道
-date: 2018-08-26 22:28:33
 comments: false
 ---
 
 ![E.M.T](58088075_p0_master1200.jpg)
 
 <div id="def-aplayer"></div>
-<script type="text/javascript">
-$(document).ready(() => {
-    getMusicMetaAsync(27698501,"netease").done((obj)=>{
-		addMusicMeta(obj,ap_def);
-	});
-});
-</script>
 
 ### 现在的情况[Situation]
 

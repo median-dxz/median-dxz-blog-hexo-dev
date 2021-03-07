@@ -77,13 +77,13 @@ hexo的搭建
 
 第一步：添加搜索插件
 
-` npm install hexo-generator-search --save` 
+`npm install hexo-generator-search --save` 
 
 `npm install hexo-generator-searchdb --save` 
 
 第二步：在*本地站点配置文件*下开启搜索
 
-```yaml
+``` yaml
 search:
 path: search.xml
 field: post

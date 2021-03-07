@@ -3,7 +3,7 @@
 /* eslint-disable no-unused-vars */
 var ap_img, ap_def;
 
-$(document).ready(() => {
+$(() => {
   if (document.getElementById("img-aplayer") !== null) {
     ap_img = new APlayer({
       container: document.getElementById("img-aplayer"),
@@ -11,7 +11,7 @@ $(document).ready(() => {
       lrcType: 1,
       listMaxHeight: 90,
       listFolded: true,
-      audio: []
+      audio: [],
     });
   }
   if (document.getElementById("def-aplayer") !== null) {
@@ -20,9 +20,14 @@ $(document).ready(() => {
       lrcType: 3,
       listMaxHeight: 90,
       listFolded: true,
-      audio: []
+      audio: [],
+    });
+    getMusicMetaAsync(27698501, "netease").done((obj) => {
+      addMusicMeta(obj, ap_def);
     });
   }
+
+
 });
 
 function getMusicMetaAsync(songid, plat) {

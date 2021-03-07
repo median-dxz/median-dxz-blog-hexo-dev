@@ -2,6 +2,7 @@
 title: feature_test
 categories:
   - AWasteLand
+mathjax: true
 date: 2021-03-04 20:13:35
 tags:
 ---

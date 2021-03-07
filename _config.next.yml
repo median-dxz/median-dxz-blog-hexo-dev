@@ -24,7 +24,7 @@ custom_file_path:
   #sidebar: source/_data/sidebar.njk
   #postMeta: source/_data/post-meta.njk
   # postBodyEnd: source/_data/post-body-end.njk
-  # footer: source/_data/footer.njk
+  footer: source/_data/footer.njk
   bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
@@ -35,9 +35,6 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 scheme: Gemini
-
-# Dark Mode
-darkmode: false
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -116,11 +113,8 @@ sidebar:
 
 # Sidebar Avatar
 avatar:
-  # Replace the default image and set the url here.
   url: /images/avatar.png
-  # If true, the avatar will be dispalyed in circle.
   rounded: false
-  # If true, the avatar will be rotated with the cursor.
   rotated: false
 
 # Posts / Categories / Tags in sidebar.
@@ -329,11 +323,11 @@ codeblock:
   # Code Highlight theme
   # All available themes: https://theme-next.js.org/highlight/
   theme:
-    light: default
+    light: atom-one-light
     dark: tomorrow-night
   prism:
-    light: prism
-    dark: prism-dark
+    light: prism-vsc-dark-plus
+    dark: prism-tomorrow
   # Add copy button on codeblock
   copy_button:
     enable: true
@@ -383,7 +377,7 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
   host: https://fonts.loli.net
@@ -396,25 +390,25 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Lucida Sans Unicode
+    family: Noto Sans SC
     size:
 
   # Font settings for site title (.site-title).
   title:
-    external: false
-    family: Times New Roman
+    external: true
+    family: Raleway
     size:
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
     external: true
-    family: PT Mono
+    family: Roboto Slab
     size:
 
   # Font settings for posts (.post-body).
   posts:
     external: true
-    family: Noto Serif SC
+    family: Open Sans, Noto Serif SC
 
   # Font settings for <code> and code blocks.
   codes:
@@ -778,10 +772,10 @@ motion:
   async: true
   transition:
     # All available transition variants: https://theme-next.js.org/animate/
-    post_block: fadeIn
+    post_block: fadeInDown
     post_header: fadeInDown
-    post_body: fadeInDown
-    coll_header: perspectiveInLeft
+    post_body: fadeInUp
+    coll_header: bounceInLeft
     # Only for Pisces | Gemini.
     sidebar: fadeInUp
 

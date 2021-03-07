@@ -57,7 +57,7 @@ highlight:
     wrap: true
     hljs: false
 prismjs:
-    enable: true
+    enable: false
     preprocess: true
     line_number: true
     tab_replace: ""
@@ -117,6 +117,7 @@ search:
 deploy:
     - type: git
       repo: git@git.coding.net:median-dxz/Median_dxz_Hexo_Blog.git
+
 # aplayer:
 # cdn: http://xxx/aplayer.min.js                # 引用 APlayer.js 外部 CDN 地址 (默认不开启)
 # style_cdn: http://xxx/aplayer.min.css         # 引用 APlayer.css 外部 CDN 地址 (默认不开启)
@@ -162,12 +163,7 @@ three:
   sphere:
     enable: false
     cdn:
-
-# hexo-tag-cloud
-# tag_cloud:
-#     textFont: "PT Mono"
-#     textColor: "#333"
-#     textHeight: 25
-#     outlineColor: "#E2E1D1"
-#     maxSpeed: 0.15 # range from [0.01 ~ 1]
-#     pauseOnSelected: false # true means pause the cloud tag movement when highlight a tag
+    
+pandoc:
+  extensions:
+    - '-implicit_figures'

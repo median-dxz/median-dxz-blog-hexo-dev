@@ -10,7 +10,7 @@ categories:
 
 是这样的，hexoblog的markdown原文的上方有段数据段，类似这样
 
-```yaml
+``` yaml
 title: YML语法小坑
 date: 2018-09-15 16:47:10
 tags: 
