@@ -12,8 +12,8 @@ $(() => {
 
   for (let i = 0; i < $(".footer-inner").children().length; i++) {
     let e = $(".footer-inner").children()[i];
-    console.log(e);
-    if (e.className !== "copyright" && e.className !== "custom_footer") {
+    //console.log(e);
+    if (e.className == "wordcount") {
       $(e).remove();
     }
   }

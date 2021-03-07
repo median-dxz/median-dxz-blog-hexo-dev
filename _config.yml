@@ -144,10 +144,25 @@ deploy:
 #  https://github.com/vkuznecovas/hexo-img-optimization
 
 symbols_count_time:
-    symbols: false
+    symbols: true
     time: false
     total_symbols: true
     total_time: true
+
+three:
+  enable: true
+  defer: true
+  cdn:
+  waves:
+    enable: false
+    cdn:
+  lines:
+    enable: true
+    cdn: https://cdn.jsdelivr.net/gh/median-dxz/hexo-next-three@4641638479ebfaf0a8bef101e5f975454e0fce30/src/lines.min.js
+  sphere:
+    enable: false
+    cdn:
+
 # hexo-tag-cloud
 # tag_cloud:
 #     textFont: "PT Mono"
