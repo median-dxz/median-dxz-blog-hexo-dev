@@ -159,7 +159,7 @@ three:
     cdn:
   lines:
     enable: true
-    cdn: https://cdn.jsdelivr.net/gh/median-dxz/hexo-next-three@4641638479ebfaf0a8bef101e5f975454e0fce30/src/lines.min.js
+    cdn: 
   sphere:
     enable: false
     cdn:
