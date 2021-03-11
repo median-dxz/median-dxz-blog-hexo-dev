@@ -1,6 +1,6 @@
 # median-dxz-blog-hexo-dev
 
-Median - dxz ' s Blog Project
+Median-dxz's Blog Project
 
 # TODO
 
@@ -12,23 +12,14 @@ Median - dxz ' s Blog Project
 - [x] 一言
 - [x] 字体：Raleway
 - [x] 压缩html，js，css
-- [ ] 方便的添加图片
-- [ ] 换计数器
-- [ ] 文件压缩及缓存机制
+- [ ] 图床设置&腾讯云迁移
+- [ ] 计数器，seo，Analytics
 - [ ] 音乐与aplayer的主题兼容性
 - [ ] 新建文章选择分类
 - [ ] 重写about，project等定制页面
-- [ ] aplayer:
-- [ ] Pagination
-- [ ] https://prettier.io/docs/en/options.html
 - [ ] https://github.com/prettier/eslint-config-prettier
+      - css扩展设置
+      - https://prettier.io/docs/en/options.html
 - [ ] 404
-- [ ] css扩展设置
-- [ ] 字体再设置
 - [ ] 音乐重实现
 - [ ] 添加blog上一次部署信息
-
-- [ ] seo
-- [ ] Analytics
-- [ ] ~~tag-plugins hexo+next~~
-
