@@ -79,6 +79,7 @@ menu:
   timechannel: /timechannel/ || fab fa-codepen
   project: /project/ || fa fa-folder-open
   images: /images/ || fa fa-image
+  about: /about/ || far fa-address-card
   # Docs:
   #   default: /docs/ || fa fa-book
   #   Getting Started:

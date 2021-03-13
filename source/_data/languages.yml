@@ -11,7 +11,7 @@ zh-CN:
     archives: 存档
     categories: 分类
     tags: 标签
-    about: 关于
+    about: 个人简介
     search: 搜索
     sitemap: 站点地图
     commonweal: 404 NOT FOUND
@@ -19,8 +19,8 @@ zh-CN:
     project: 项目
     images: 图库
   sidebar:
-    overview: 站点概览
-    toc: 文章目录
+    overview: 本站信息
+    toc: 目录
   post:
     posted: 发表于
     edited: 更新于
@@ -111,14 +111,14 @@ zh-CN:
       archives: Archives
       categories: Categories
       tags: Tags
-      about: About
+      about: About Me
       search: Search
       schedule: Schedule
       sitemap: Sitemap
       commonweal: Commonweal 404
-      timechannel: timechannel
-      project: project
-      images: images
+      timechannel: Time Channel
+      project: Project
+      images: Gallery
     sidebar:
       overview: Overview
       toc: Table of Contents

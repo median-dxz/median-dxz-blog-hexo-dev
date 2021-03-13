@@ -3,12 +3,12 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "launch": "npx hexo clean && npx hexo generate && npx hexo server",
-    "publish": "npx hexo clean && npx hexo generate && gulp && npx hexo deploy",
-    "build": "npx hexo generate",
-    "clean": "npx hexo clean",
-    "deploy": "npx hexo deploy",
-    "server": "npx hexo server"
+    "launch": "hexo clean && hexo generate && hexo server",
+    "publish": "hexo clean && hexo generate && gulp && hexo deploy",
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server"
   },
   "hexo": {
     "version": "5.4.0"
@@ -38,6 +38,7 @@
     "del": "^6.0.0",
     "ejs": "^3.1.6",
     "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
     "gulp": "^4.0.2",
     "html-minifier-terser": "^5.1.1",
     "sharp": "^0.27.2",

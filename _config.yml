@@ -32,6 +32,7 @@ skip_render:
     - images/**
     - project/**
     - assets/**
+    - about/**
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -98,7 +99,9 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
-exclude:
+exclude: 
+  - 'about/LICENSE'
+  - 'about/README.md'
 ignore:
 
 # Extensions
@@ -117,32 +120,6 @@ search:
 deploy:
     - type: git
       repo: git@git.coding.net:median-dxz/Median_dxz_Hexo_Blog.git
-
-# aplayer:
-# cdn: http://xxx/aplayer.min.js                # 引用 APlayer.js 外部 CDN 地址 (默认不开启)
-# style_cdn: http://xxx/aplayer.min.css         # 引用 APlayer.css 外部 CDN 地址 (默认不开启)
-# meting: true                                  # MetingJS 支持
-# meting_api: http://xxx/api.php                # 自定义 Meting API 地址
-# meting_cdn: http://xxx/Meing.min.js           # 引用 Meting.js 外部 CDN 地址 (默认不开启)
-# asset_inject: true                            # 自动插入 Aplayer.js 与 Meting.js 资源脚本, 默认开启
-
-# img_optimization:
-#   exclude:
-#     - css/ # anything that ends with a forward slash will be considered a directory
-#     - fancybox/
-#     # - banner.jpg # anything else is a file
-#   jpg:
-#     enabled: true # if false, jpgs will get ignored. Defaults to true
-#     params: -resize 760000@ # parameter string to pass to imagemagick's convert function
-#   png: # jpg/png/jpeg all have the same fields and can be configured independently
-#     enabled: false
-#     thumb: -resize 1920x1080> -strip -quality 82
-#   jpeg:
-#     enabled: false
-#   # these parameters will be used for any file types that do not have a params parameter defined in config. You can override these to your own preferred defaults.
-#   default_params: -resize 760000@ -filter Triangle -define filter:support=2 -unsharp 0.25x0.25+8+0.065 -dither None -posterize 136 -quality 85 -define jpeg:fancy-upsampling=off -interlace none -colorspace sRGB -strip -define png:compression-filter=5 -define png:compression-level=9 -define png:compression-strategy=1 -define png:exclude-chunk=all
-#   default_thumb: -resize 1920x1080> -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB
-#  https://github.com/vkuznecovas/hexo-img-optimization
 
 symbols_count_time:
     symbols: true
@@ -167,3 +144,6 @@ three:
 pandoc:
   extensions:
     - '-implicit_figures'
+
+stylus:
+  plugins: ''

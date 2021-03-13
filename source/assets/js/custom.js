@@ -17,5 +17,10 @@ $(() => {
       $(e).remove();
     }
   }
-
 });
+
+console.log(
+  "%c Thank you for viewing! %c 降り止まない雨などない",
+  "color: #fff; background: #222; padding:8px 3px;",
+  "color: #222; background: #eee; padding:8px 3px;"
+);
