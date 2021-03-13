@@ -1,6 +1,3 @@
-/* eslint-disable no-console */
-/* eslint-disable no-undef */
-/* eslint-disable no-unused-vars */
 var ap_img, ap_def;
 
 $(() => {
@@ -30,7 +27,7 @@ $(() => {
 
 });
 
-function getMusicMetaAsync(songid, plat) {
+async function getMusicMetaAsync(songid, plat) {
   var url = "https://api.i-meto.com/meting/api?server=%plat%&type=song&id=%id%&r=song";
   url = url.replace("%id%", String(songid)).replace("%plat%", plat);
 
@@ -44,7 +41,7 @@ function getMusicMetaAsync(songid, plat) {
     }
   });
 
-  return defer;
+  return defer.promise();
 }
 
 function addMusicMeta(mobj, ap) {

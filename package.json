@@ -48,12 +48,17 @@
   "prettier": {
     "tabWidth": 2,
     "singleQuote": true,
-    "packageManager": "npm",
     "quoteProps": "consistent",
     "printWidth": 120,
     "overrides": [
       {
         "files": "*.yml",
+        "options": {
+          "tabWidth": 4
+        }
+      },
+      {
+        "files": "*.js",
         "options": {
           "tabWidth": 4
         }

@@ -1,0 +1,21 @@
+<div class="custom_footer">
+  <div class="powered">
+    <span id="Hexo">
+      Powered by: <a href="https://hexo.io">Hexo</a>
+      <%= site.data.Advanced.version.hexo%> |
+    </span>
+    <span id="NexT">
+      Theme: <a href="https://https://theme-next.js.org/">NexT.Gemini</a>
+      <%= site.data.Advanced.version.next%> |
+    </span>
+    <span id="Host"> Hosted by: <a href="https://coding.net/">Coding Pages</a></span>
+  </div>
+  <div class="statistics">
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span> Symbols Count:&nbsp;<%= symbolsCountTotal(site) %>&nbsp;Bytes&nbsp; </span>
+    &nbsp;<i class="far fa-hdd"></i>
+    <span id="busuanzi_container_site_uv"> &nbsp;View&nbsp; <span id="busuanzi_value_site_uv"></span> &nbsp;Times&nbsp; </span>
+    &nbsp;<i class="fas fa-code-branch"></i>
+    <span> &nbsp;Last Updated Time: <%= updatedTime%> </span>
+  </div>
+</div>
