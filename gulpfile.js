@@ -103,7 +103,7 @@ exports.minifyIMG = task_minify_img;
 exports.minifyHTML = task_minify_html;
 
 exports.myworker = function(){
-  return src('uploads/avatar.jpg').pipe(through.obj(function (file,enc,done) {  
+  return src().pipe(through.obj(function (file,enc,done) { 
     this.push(file);
     done();
   }))}

@@ -129,7 +129,7 @@ symbols_count_time:
 three:
     enable: true
     defer: true
-    cdn:
+    cdn: https://cdn.jsdelivr.net/npm/three@0.126.1/build/three.min.js
     waves:
         enable: false
         cdn:
