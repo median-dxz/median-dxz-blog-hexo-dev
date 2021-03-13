@@ -44,5 +44,20 @@
     "sharp": "^0.27.2",
     "terser": "^5.6.0",
     "through2": "^2.0.5"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "singleQuote": true,
+    "packageManager": "npm",
+    "quoteProps": "consistent",
+    "printWidth": 120,
+    "overrides": [
+      {
+        "files": "*.yml",
+        "options": {
+          "tabWidth": 4
+        }
+      }
+    ]
   }
 }

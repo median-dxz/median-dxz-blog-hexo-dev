@@ -21,19 +21,21 @@ sticky: 7
 
 本项目挂在Coding.net上，项目TODO：
 
-- [ ] 方便的添加图片
-- [ ] 换计数器
-- [ ] 动画效果
-- [ ] 字体多元
-- [x] 标签云
-- [ ] 文件压缩及缓存机制
-- [x] 格式化ht，js，css
+- [x] 首页置顶的实现和样式
+- [x] cros-proxy的自有部署worker实现
+- [x] 基于three.js的3d背景动效
+- [x] 高亮
 - [x] 一言
-- [x] 音乐
-- [ ] 字体：Raleway|core_sans_n45_regular
-- [ ] 新建文章选择分类
+- [x] 字体
+- [x] 压缩html, js,css, img. 使用gulp工作流
+- [ ] 图床设置&腾讯云迁移
+- [ ] 计数器，seo，Analytics
+- [ ] 重构很差的代码和目录组织（永远不会
+- [x] 插件配置 eslint - prettier
+- [x] 添加blog上一次部署信息
+- [ ] 友链
 
-github上项目源码：<https://github.com/median-dxz/median-dxz-blog-hexo-dev>
+github上项目源码：<https://github.com/median-dxz/median-dxz-blog-hexo-dev> (暂时私有化)
 
 
 
@@ -53,7 +55,7 @@ github上项目源码：<https://github.com/median-dxz/median-dxz-blog-hexo-dev>
 
 2019.8.15 应该是最后一次更新了，高三真的没什么精力来打理了，索性趁最后一个小假期把零碎的更新更完
 
-
+2021.3.13 正准备重写blog的大部分文章并重构大部分代码
 
 ### 教程目录(预览版)
 

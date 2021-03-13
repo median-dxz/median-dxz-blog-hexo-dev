@@ -14,10 +14,8 @@ Median-dxz's Blog Project
 - [x] 压缩html，js，css
 - [ ] 图床设置&腾讯云迁移
 - [ ] 计数器，seo，Analytics
-- [ ] 新建文章选择分类
 - [ ] 重构很差的代码和目录组织（永远不会
-- [x] https://github.com/prettier/eslint-config-prettier
+- [x] eslint-config-prettier
       - css扩展设置
-      - https://prettier.io/docs/en/options.html
-- [ ] 添加blog上一次部署信息
+- [x] 添加blog上一次部署信息
 - [ ] 友链
