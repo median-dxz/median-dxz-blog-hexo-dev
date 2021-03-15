@@ -6,11 +6,15 @@ Median-dxz's Blog Project
 
 - 2021/3/13 跟进项目中
 - 2021/3/14 重构音乐获取部分代码
+- 2021/3/15 解决使用pajx导致的局部js失效
 
 # 当前
 
 - [x] music实现async和await
-- [ ] 解决页面pajx的局部js处理
+- [x] 解决页面pajx的局部js处理
+- [ ] hito自定义对齐方式
+- [ ] 无图片时的页脚样式
+- [ ] about:头图显示pid和作者，跳转主站并在跳转主站的地方使用webpack环境变量
 
 # TODO
 

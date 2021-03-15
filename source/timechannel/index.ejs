@@ -10,30 +10,26 @@ comments: false
 
 <a href="https://github.com/median-dxz"
   ><img
-    style="margin-left: 0;"
+    style="margin-left: 0"
     src="https://github-readme-stats.vercel.app/api?username=median-dxz&count_private=true&show_icons=true&theme=buefy&bg_color=30,e2e2e2,c9d6ff"
     alt="Median-dxz's GitHub stats"
 /></a>
 
-<p>
-
-</p>
-
 <div id="tc-aplayer"></div>
 
 <script>
-  var ap_tc = new APlayer({
-    container: document.getElementById('tc-aplayer'),
-    lrcType: 3,
-    listMaxHeight: 90,
-    listFolded: true,
-    audio: [],
-  });
-  let run = async function (){
-    let obj = await getMusicRepAsync(27698501, "netease");
+  let run = async function () {
+    let ap_tc = new APlayer({
+      container: document.getElementById('tc-aplayer'),
+      lrcType: 3,
+      listMaxHeight: 90,
+      listFolded: true,
+      audio: [],
+    });
+    let obj = await getMusicRepAsync(27698501, 'netease');
     obj = getMusicMetaByRep(obj);
     ap_tc.list.add(obj);
-  }
+  };
   run();
+  document.addEventListener('pjax:success', run);
 </script>
-

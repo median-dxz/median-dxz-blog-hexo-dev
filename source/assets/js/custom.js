@@ -1,4 +1,7 @@
 var randNum = (tot) => Math.floor(Math.random() * Math.pow(10, Math.log10(tot) + 1)) % tot;
+var changeStickyIcon = () => {
+    $('.post-sticky-flag').html('<i class="fas fa-caret-up"></i>');
+};
 var bkg = {};
 var hito = {};
 
@@ -20,16 +23,16 @@ $(() => {
     });
 
     //sticky icon modify
-    $('.post-sticky-flag').html('<i class="fas fa-caret-up"></i>');
-    const observer = new MutationObserver(() => {
-        $('.post-sticky-flag').html('<i class="fas fa-caret-up"></i>');
-    });
-    observer.observe($('main')[0], { childList: true });
+    changeStickyIcon();
 
     //close default wordcount column
     if ($('.footer-inner .wordcount').length >= 0) {
         $('.footer-inner .wordcount')[0].remove();
     }
+});
+
+document.addEventListener('pjax:success', () => {
+    changeStickyIcon();
 });
 
 $(window).on('resize', () => {
