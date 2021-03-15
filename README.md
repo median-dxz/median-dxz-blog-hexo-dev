@@ -2,23 +2,89 @@
 
 Median-dxz's Blog Project
 
+# LOG
+
+- 2021/3/13 跟进项目中
+- 2021/3/14 重构音乐获取部分代码
+
+# 当前
+
+- [x] music实现async和await
+- [ ] 解决页面pajx的局部js处理
+
 # TODO
 
 - [x] 首页置顶的实现和样式
 - [x] cros-proxy的自有部署worker实现
 - [x] 基于three.js的3d背景动效
-- [ ] three.js时间优化
+- [x] three.js时间优化
 - [x] hexo-config-search
 - [x] 高亮
 - [x] 一言
 - [x] 字体：Raleway
 - [x] 压缩html，js，css
 - [ ] 重写图库
+- [ ] 重写timechannel
 - [ ] 图床设置&腾讯云迁移
 - [ ] 计数器，seo，Analytics
-- [ ] 重构很差的代码和目录组织（永远不会(ing..
 - [x] eslint-config-prettier
-      - css扩展设置
 - [x] 添加blog上一次部署信息
-- [ ] 友链
-- [ ] ejs，stylus学习与插件支持
+- [ ] 重构很差的代码和目录组织（永远不会(ing..
+- 进度：css重构，工作区插件配置，音乐重构（async），js✅，文章
+- 重写
+
+---
+
+当前进度：
+
+timechannel改为changlog
+
+从github或git目录或导出commit文件
+
+导出并处理相关信息 filechange + - 时间 hash等
+
+处理为json
+
+ejs批量导入
+
+添加一些信息，如重要commit，运行时间
+
+用到的项目列表
+
+todolist
+
+---
+
+about页面换背景，完善联系方式，profile，追番列表
+
+加emt插图
+
+---
+
+推特账号，steam，p站，贴吧，origin，uplay
+
+---
+
+vscode插件支持，pajx处理，迁移腾讯云，图床暂定仍smms
+
+---
+
+img和一些bkg存cos，galley页面（及翻译添加pid和作者信息（点击弹窗实现（或siderbar
+
+多数bkg，并换
+
+---
+
+v服务器，docker，webpack
+
+seo，分析，统计
+
+---
+
+重写两篇博文，写新的
+
+展示展示
+
+---
+
+更长远：友链，自搭音乐服务，gitstat服务，备案，显示信息的小图标

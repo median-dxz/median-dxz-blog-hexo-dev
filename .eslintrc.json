@@ -16,5 +16,6 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
+  "ignorePatterns": "*.min.js",
   "rules": {}
 }

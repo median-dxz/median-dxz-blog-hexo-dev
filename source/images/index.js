@@ -1,24 +1,34 @@
 /* eslint-disable no-undef */
-var img_num = 9;
+var img_num = 9,
+    ap_img;
 
-$(() => {
+$(async () => {
     for (let i = 1; i <= img_num; i++) {
         addImg(i);
     }
 
+    ap_img = new APlayer({
+        container: document.getElementById('img-aplayer'),
+        fixed: true,
+        lrcType: 1,
+        listMaxHeight: 90,
+        listFolded: true,
+        audio: [],
+    });
+
     let songId = [471795, 426502173, 26125390, 30431342];
-    let song = new Array(5);
-    let pm = [];
-    for (let i = 0; i < songId.length; i++) {
-        pm.push(getMusicMetaAsync(songId[i], 'netease').then((v) => (song.push(v))));
+    let promises = [];
+    songId.forEach((e) => {
+        promises.push(getMusicRepAsync(e, 'netease'));
+    });
+    promises.push(getMusicRepAsync('000uX2eS4NlvrX', 'tencent'));
+    try {
+        let rep = await Promise.all(promises);
+        let song = rep.map((v) => getMusicMetaByRep(v));
+        ap_img.list.add(song);
+    } catch (err) {
+        console.error(err);
     }
-    Promise.all(pm)
-        .then(() =>
-            getMusicMetaAsync('000uX2eS4NlvrX', 'tencent').then((v) => {
-                song[4] = v;
-            })
-        )
-        .then(() => {addMusicMeta(song, ap_img)});
 });
 
 function addImg(img_id) {
