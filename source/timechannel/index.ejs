@@ -4,9 +4,6 @@ comments: false
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" />
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<script src="/assets/js/music/APlayer.min.js"></script>
-<script src="/assets/js/music/getMusic.js"></script>
 
 <a href="https://github.com/median-dxz"
   ><img
@@ -16,20 +13,3 @@ comments: false
 /></a>
 
 <div id="tc-aplayer"></div>
-
-<script>
-  let run = async function () {
-    let ap_tc = new APlayer({
-      container: document.getElementById('tc-aplayer'),
-      lrcType: 3,
-      listMaxHeight: 90,
-      listFolded: true,
-      audio: [],
-    });
-    let obj = await getMusicRepAsync(27698501, 'netease');
-    obj = getMusicMetaByRep(obj);
-    ap_tc.list.add(obj);
-  };
-  run();
-  document.addEventListener('pjax:success', run);
-</script>
