@@ -7,6 +7,7 @@ Median-dxz's Blog Project
 - 2021/3/13 跟进项目中
 - 2021/3/14 重构音乐获取部分代码
 - 2021/3/15 解决使用pajx导致的局部js失效
+- 2021/3/16 修改stylus renderer以屏蔽node v14下的error
 - 2021/3/20 ~~将meting部署到自己的vercel上，迁移api~~测试后无法使用qq音乐，由于对php不熟悉导致无从查错，搁置并换回作者的api
 - 2021/3/20 pjax再修复
 
@@ -19,6 +20,7 @@ Median-dxz's Blog Project
 - [ ] about:头图显示pid和作者，跳转主站并在跳转主站的地方使用webpack环境变量
 - [ ] about:img favicon
 - [ ] about footer时间
+- [ ] 使用环境变量加载gitalk
 
 # TODO
 
