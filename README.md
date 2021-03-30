@@ -10,17 +10,21 @@ Median-dxz's Blog Project
 - 2021/3/16 修改stylus renderer以屏蔽node v14下的error
 - 2021/3/20 ~~将meting部署到自己的vercel上，迁移api~~测试后无法使用qq音乐，由于对php不熟悉导致无从查错，搁置并换回作者的api
 - 2021/3/20 pjax再修复
+- 2021/3/20 about，img，music，gitalk和其他细节..
 
 # 当前
 
 - [x] music实现async和await
 - [x] 解决页面pajx的局部js处理
 - [ ] hito自定义对齐方式
-- [ ] 无图片时的页脚样式
-- [ ] about:头图显示pid和作者，跳转主站并在跳转主站的地方使用webpack环境变量
-- [ ] about:img favicon
-- [ ] about footer时间
-- [ ] 使用环境变量加载gitalk
+- [x] 无图片时的页脚样式
+- [x] about:头图显示pid和作者，跳转主站并在跳转主站的地方使用webpack环境变量
+- [x] about:img favicon
+- [X] about footer时间
+- [x] img显示信息
+- [x] gitalk使用独立配置
+- [ ] bkg.json完成
+- [ ] about:追番列表
 
 # TODO
 
@@ -33,21 +37,20 @@ Median-dxz's Blog Project
 - [x] 一言
 - [x] 字体：Raleway
 - [x] 压缩html，js，css
-- [ ] 重写图库
-- [ ] 重写timechannel
+- [x] 重写图库
+- [ ] 重写changelog
 - [ ] 图床设置&腾讯云迁移
 - [ ] 计数器，seo，Analytics
 - [x] eslint-config-prettier
 - [x] 添加blog上一次部署信息
 - [ ] 重构很差的代码和目录组织（永远不会(ing..
-- 进度：css重构，工作区插件配置，音乐重构（async），js✅，文章
-- 重写
+- 进度：css重构，工作区插件配置，音乐重构（async）✅，js✅，文章重写
 
 ---
 
 当前进度：
 
-timechannel改为changlog
+改为changelog
 
 从github或git目录或导出commit文件
 
@@ -75,17 +78,15 @@ about页面换背景，完善联系方式，profile，追番列表
 
 ---
 
-vscode插件支持，pajx处理，迁移腾讯云，图床暂定仍smms
+vscode插件支持，迁移腾讯云，图床暂定仍smms
 
 ---
 
-img和一些bkg存cos，galley页面（及翻译添加pid和作者信息（点击弹窗实现（或siderbar
+img和一些bkg存cos
 
 多数bkg，并换
 
 ---
-
-v服务器，docker，webpack
 
 seo，分析，统计
 
@@ -97,4 +98,4 @@ seo，分析，统计
 
 ---
 
-更长远：友链，自搭音乐服务并自行提供api，gitstat服务，备案，显示信息的小图标
+更长远：友链，自搭音乐服务并自行提供api，备案，显示信息的小图标

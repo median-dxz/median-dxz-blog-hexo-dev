@@ -77,7 +77,7 @@ menu:
     #Acategories: /categories/ || fa fa-th
     archives: /archives/ || fa fa-archive
     images: /images/ || fa fa-image
-    timechannel: /timechannel/ || fab fa-codepen    
+    changelog: /changelog/ || fab fa-codepen    
     about: /about/ || far fa-address-card
     project: /project/ || fa fa-folder-open
     # Docs:
@@ -572,15 +572,15 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io
 gitalk:
-    enable: true
-    github_id: 'median-dxz'
-    repo: 'gitalk-for-median-dxz-blog'
-    client_id: 'd7401b1f9011525767e5'
-    client_secret: 'f4d903e0fb77b8010c3fab504b052560c8aa0f8b'
-    admin_user: ['median-dxz']
+    enable: false
+    github_id:
+    repo:
+    client_id:
+    client_secret:
+    admin_user: []
     distraction_free_mode: true # Facebook-like distraction free mode
     # When the official proxy is not available, you can change it to your own proxy address
-    proxy: https://cros-anywhere.median.workers.dev/https://github.com/login/oauth/access_token # This is official proxy adress
+    proxy:
     # Gitalk's display language depends on user's browser or system environment
     # If you want everyone visiting your site to see a uniform language, you can set a force language value
     # Available values: en | es-ES | fr | ru | zh-CN | zh-TW

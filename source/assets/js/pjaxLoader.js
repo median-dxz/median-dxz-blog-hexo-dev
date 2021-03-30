@@ -36,7 +36,7 @@ export default () => {
         case '':
             changeStickyIcon();
             break;
-        case 'timechannel':
+        case 'changelog':
             runMusicTC();
             break;
         default:

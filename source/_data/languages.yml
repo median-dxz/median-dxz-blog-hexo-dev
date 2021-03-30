@@ -15,7 +15,7 @@ zh-CN:
     search: 搜索
     sitemap: 站点地图
     commonweal: 404 NOT FOUND
-    timechannel: 时光隧道
+    changelog: 时光隧道
     project: 项目
     images: 图库
   sidebar:
@@ -116,7 +116,7 @@ zh-CN:
       schedule: Schedule
       sitemap: Sitemap
       commonweal: Commonweal 404
-      timechannel: Time Channel
+      changelog: Change Log
       project: Project
       images: Gallery
     sidebar:

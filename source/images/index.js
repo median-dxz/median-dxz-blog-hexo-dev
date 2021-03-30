@@ -1,8 +1,14 @@
 /* eslint-disable no-undef */
 var img_num = 9,
-    ap_img;
+    ap_img,
+    p_info;
 
 $(async () => {
+    p_info = await $.getJSON('/assets/js/bkg/bkg.json');
+
+    img_num = p_info['total'] ;
+    p_info = p_info['image_info'];
+
     for (let i = 1; i <= img_num; i++) {
         addImg(i);
     }
@@ -31,19 +37,20 @@ $(async () => {
     }
 });
 
-function addImg(img_id) {
-    let el = $('#page');
-    let newel = $("<div class='ImgList'></div>").append(
-        $('<a></a>').attr({
-            href: 'bg_alt_' + String(img_id) + '.jpg',
-            target: '_Blank',
-        })
-    );
-    newel.children(':first-child').append(
+function addImg(i) {
+    let e = $("<div class='ImgList'></div>").append([
+        $('<a target="_Blank"></a>').attr({
+            href: 'bg_alt_' + String(i) + '.jpg',
+        }),
+        $("<div class='PInfo'></div>").html(
+            p_info[i - 1]['name'] + "<br />Author: "+p_info[i - 1]['author'] + "<br />pid: "+ p_info[i - 1]['pid']
+        ),
+    ]);
+    e.children(':first-child').append(
         $('<img></img>').attr({
             class: 'il',
-            src: 'bg_alt_' + String(img_id) + '.jpg',
+            src: 'bg_alt_' + String(i) + '.jpg',
         })
     );
-    el.append(newel);
+    $('#page').append(e);
 }

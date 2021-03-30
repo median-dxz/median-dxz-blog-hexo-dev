@@ -1,0 +1,26 @@
+{%- if page.comments %}
+<link rel="stylesheet" href="{{ theme.vendors.gitalk_css }}">
+
+<script>
+NexT.utils.loadComments('.gitalk-container', () => {
+  NexT.utils.getScript('{{ theme.vendors.gitalk_js }}', () => {
+    var gitalk = new Gitalk({
+      clientID    : '{{ site.data.gitalk.client_id }}',
+      clientSecret: '{{ site.data.gitalk.client_secret }}',
+      repo        : '{{ site.data.gitalk.repo }}',
+      owner       : '{{ site.data.gitalk.github_id }}',
+      admin       : ['{{ site.data.gitalk.admin_user }}'],
+      id          : '{{ gitalk_md5(page.path) }}',
+      proxy       : '{{ site.data.gitalk.proxy }}',
+      {%- if site.data.gitalk.language == '' %}
+        language: window.navigator.language,
+      {% else %}
+        language: '{{ site.data.gitalk.language }}',
+      {%- endif %}
+      distractionFreeMode: {{ site.data.gitalk.distraction_free_mode }}
+    });
+    gitalk.render(document.querySelector('.gitalk-container'));
+  }, window.Gitalk);
+});
+</script>
+{%- endif %}

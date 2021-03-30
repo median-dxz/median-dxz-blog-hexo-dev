@@ -5,7 +5,7 @@
   "scripts": {
     "launch": "hexo clean && hexo generate && hexo server",
     "publish": "hexo clean && hexo generate && gulp && hexo deploy",
-    "build": "hexo generate",
+    "build": "hexo generate ",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server"
