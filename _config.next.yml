@@ -179,7 +179,7 @@ footer:
     icon:
         name: fa fa-cube
         animated: true
-        color: '#ffe300'
+        color: '#555'
 
     copyright: median-dxz
 

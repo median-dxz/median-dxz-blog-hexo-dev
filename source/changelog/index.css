@@ -1,0 +1,79 @@
+.container-commit {
+  position: relative;
+  display: grid;
+  min-width: 0;
+  width: 70%;
+  grid-template-rows: 4em repeat(3, 2em);
+  grid-template-columns: 20% 30% 30% 20%;
+  grid-template-areas: 'icon title title title';
+  grid-auto-flow: column;
+  align-items: center;
+  justify-items: start;
+  box-shadow: 0px 0px 2px 0 rgb(0 0 0 / 12%), 0 0px 1px -2px rgb(0 0 0 / 6%), 0 0px 5px 0 rgb(0 0 0 / 12%);
+  margin-left: 10%;
+  margin-bottom: 40px;
+  padding: 20px 16px;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(6px);
+}
+
+.container-year {
+  width: calc(70% + 2 * 16px);
+  margin-left: 10%;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #eee;
+  font-size: 2em;
+  text-shadow: 0px 0px 4px #eee;
+}
+
+.year-content {
+  border: 1px solid #eee;
+  border-left: transparent;
+  border-right: transparent;
+}
+
+.commit-header {
+  grid-column-start: title-start;
+  grid-column-end: title-end;
+  margin-left: -12px;
+}
+
+.commit-content {
+  grid-column-end: span 2;
+  margin-left: 30px;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  /* line-break: loose; */
+}
+
+.commit-icon {
+  justify-self: center;
+  font-size: 36px;
+}
+
+.commit-additions {
+  color: #008000;
+}
+
+.commit-deletions {
+  color: #ff0000;
+}
+
+.container-changelog {
+  position: relative;
+  padding: 40px;
+  background: url(/images/bg_alt_1.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.container-changelog::before {
+  content: ' ';
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: calc(100% - 80px);
+  margin-left: 10%;
+  border-left: #eee 2px dashed;
+  margin-top: 5%;
+}

@@ -1,0 +1,1004 @@
+{
+  "totalCommitTimes": 117,
+  "commits": [
+    {
+      "message": "about页面和link",
+      "additions": 191,
+      "deletions": 87,
+      "changedFiles": 19,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/8e7095469bcdc80c1800998bddee2d7b9e2a79ff",
+      "committedDate": "2021-03-30T08:06:53Z",
+      "pushedDate": "2021-03-30T08:07:13Z"
+    },
+    {
+      "message": "bump ver & footer style",
+      "additions": 260,
+      "deletions": 60,
+      "changedFiles": 4,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/0de4855657b85eaa44dae77f0ecb5477c118ee63",
+      "committedDate": "2021-03-20T09:31:06Z",
+      "pushedDate": null
+    },
+    {
+      "message": "pjax fix again",
+      "additions": 80,
+      "deletions": 57,
+      "changedFiles": 5,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/1a39408450d074d82bdda914b2c58352b651f494",
+      "committedDate": "2021-03-20T06:52:54Z",
+      "pushedDate": "2021-03-20T06:53:39Z"
+    },
+    {
+      "message": "meting换上自部署",
+      "additions": 6,
+      "deletions": 2,
+      "changedFiles": 3,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/1f5dde0f18c642cdd9de7e30b7f0c61dffd2f264",
+      "committedDate": "2021-03-19T16:30:37Z",
+      "pushedDate": null
+    },
+    {
+      "message": "Fix: pjax下局部js的retrigger实现",
+      "additions": 38,
+      "deletions": 42,
+      "changedFiles": 6,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/b15bb6aa4338df6ac11d71a6600dcd0e5309ed34",
+      "committedDate": "2021-03-15T11:13:25Z",
+      "pushedDate": null
+    },
+    {
+      "message": "音乐实现重构",
+      "additions": 183,
+      "deletions": 119,
+      "changedFiles": 18,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/2bff9c3863e4e2710cd0925f98782aaf655f8067",
+      "committedDate": "2021-03-15T09:21:39Z",
+      "pushedDate": "2021-03-15T09:22:25Z"
+    },
+    {
+      "message": "一些加载优化",
+      "additions": 6,
+      "deletions": 6,
+      "changedFiles": 6,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/65e52c15ef2295ab620dbad97f2c2421b2a8d2af",
+      "committedDate": "2021-03-13T13:06:23Z",
+      "pushedDate": null
+    },
+    {
+      "message": "重构文件结构，函数命名和实现",
+      "additions": 256,
+      "deletions": 1735,
+      "changedFiles": 38,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/1a9e560cef4df27bdf17ff29b90c503fd58db84f",
+      "committedDate": "2021-03-13T12:25:12Z",
+      "pushedDate": null
+    },
+    {
+      "message": "更新预告 & 上次修改时间",
+      "additions": 434,
+      "deletions": 415,
+      "changedFiles": 9,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/57819919da6f9b82b22c794c093ba3d6b0b70d38",
+      "committedDate": "2021-03-13T06:36:55Z",
+      "pushedDate": "2021-03-13T06:38:58Z"
+    },
+    {
+      "message": "个人主页 插件配置",
+      "additions": 9996,
+      "deletions": 92,
+      "changedFiles": 41,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/82a0fa548247fdfa1b7f02b53571fafed791cadd",
+      "committedDate": "2021-03-13T05:25:45Z",
+      "pushedDate": null
+    },
+    {
+      "message": "add lock file & update todo",
+      "additions": 1504,
+      "deletions": 1135,
+      "changedFiles": 3,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/6d2826326503d0a6c4d553117a51946031f83740",
+      "committedDate": "2021-03-11T11:52:23Z",
+      "pushedDate": "2021-03-11T11:52:32Z"
+    },
+    {
+      "message": "update three plugin & gulp integration",
+      "additions": 5273,
+      "deletions": 2440,
+      "changedFiles": 8,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/9260dc757bce598877b025b8f36ec79910cd964d",
+      "committedDate": "2021-03-11T11:35:11Z",
+      "pushedDate": null
+    },
+    {
+      "message": "字体更改与其他细节",
+      "additions": 6314,
+      "deletions": 17249,
+      "changedFiles": 21,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/d1074a5b4f8c88ff68bab54757bc334f439e828b",
+      "committedDate": "2021-03-07T11:53:23Z",
+      "pushedDate": null
+    },
+    {
+      "message": "添加背景动效",
+      "additions": 259,
+      "deletions": 97,
+      "changedFiles": 9,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/f2677d20d2cd94aa30ac6f9663e90b9f682cb455",
+      "committedDate": "2021-03-07T07:17:42Z",
+      "pushedDate": null
+    },
+    {
+      "message": "使用自己的cors-worker",
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/9586b4b39c23b91d5fcd7952ba7743992d8ea02c",
+      "committedDate": "2021-03-07T02:50:54Z",
+      "pushedDate": null
+    },
+    {
+      "message": "修复gitalk使用上的配置问题",
+      "additions": 4,
+      "deletions": 97,
+      "changedFiles": 4,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/9fbb8f623921f3a4aeb8501009f9303641a3c783",
+      "committedDate": "2021-03-06T06:07:00Z",
+      "pushedDate": null
+    },
+    {
+      "message": "update hexo & next | 重新实现了主题自定义部分",
+      "additions": 17372,
+      "deletions": 25947,
+      "changedFiles": 331,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/59a64d830c474c59dd575ef324d875e2c71b6372",
+      "committedDate": "2021-03-06T03:28:06Z",
+      "pushedDate": "2021-03-06T03:42:27Z"
+    },
+    {
+      "message": "CEE time && meto && npm update",
+      "additions": 2925,
+      "deletions": 2357,
+      "changedFiles": 44,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/6047e13b035147deeba4b418615da3009adcfe37",
+      "committedDate": "2020-05-09T14:03:39Z",
+      "pushedDate": null
+    },
+    {
+      "message": "update packages",
+      "additions": 63,
+      "deletions": 46,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/405ad9cc36253f0850083dee30474f7d3fe76284",
+      "committedDate": "2019-07-16T00:31:58Z",
+      "pushedDate": "2019-07-16T00:32:12Z"
+    },
+    {
+      "message": "update package",
+      "additions": 201,
+      "deletions": 246,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/45f88db55ceb9475db9dfc7d4cf495c3b597a582",
+      "committedDate": "2019-07-16T00:28:44Z",
+      "pushedDate": "2019-07-16T00:29:02Z"
+    },
+    {
+      "message": "write a post",
+      "additions": 143,
+      "deletions": 120,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/55a5e7c2d72c876691470c960b9bcbab7379f68d",
+      "committedDate": "2019-06-29T09:07:24Z",
+      "pushedDate": "2019-06-29T09:07:46Z"
+    },
+    {
+      "message": "Merge branch 'master' of https://github.com/median-dxz/median-dxz-blog-hexo-dev",
+      "additions": 227,
+      "deletions": 122,
+      "changedFiles": 7,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/2982c1598ad13491bc97de3dea367078ea33eed9",
+      "committedDate": "2019-06-28T14:29:58Z",
+      "pushedDate": "2019-06-28T14:30:52Z"
+    },
+    {
+      "message": "post an anniversary post && fix some problems",
+      "additions": 31,
+      "deletions": 7,
+      "changedFiles": 6,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/d6b870f700e0fac107b382b7f48a694296c7198e",
+      "committedDate": "2019-06-28T14:28:49Z",
+      "pushedDate": null
+    },
+    {
+      "message": "update a post",
+      "additions": 56,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/5261931e3bc347f627c1764662a1aa03341dce06",
+      "committedDate": "2019-06-05T09:11:34Z",
+      "pushedDate": "2019-06-05T09:11:46Z"
+    },
+    {
+      "message": "update tag-cloud",
+      "additions": 156,
+      "deletions": 116,
+      "changedFiles": 6,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/3ee898f6d67fad752fac8911dd8d5544432c77b3",
+      "committedDate": "2019-06-04T15:10:59Z",
+      "pushedDate": null
+    },
+    {
+      "message": "Merge branch 'master' of github.com:median-dxz/median-dxz-blog-hexo-dev",
+      "additions": 9,
+      "deletions": 4,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/86c7b7878361f1ac6091b07272c58b7e98964174",
+      "committedDate": "2019-06-04T14:11:06Z",
+      "pushedDate": null
+    },
+    {
+      "message": "update schedule",
+      "additions": 9,
+      "deletions": 4,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/d600e43b3040284a1b505c565d4802fd303d0228",
+      "committedDate": "2019-05-29T06:05:36Z",
+      "pushedDate": "2019-05-29T06:05:51Z"
+    },
+    {
+      "message": "Merge branch 'master' of github.com:median-dxz/median-dxz-blog-hexo-dev\n\nIt's a merge that is a huge version update which add many new features",
+      "additions": 4672,
+      "deletions": 3240,
+      "changedFiles": 23,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/3ac41071bd958c3fbe76c90e276d1be582e6c1de",
+      "committedDate": "2019-05-25T10:25:12Z",
+      "pushedDate": null
+    },
+    {
+      "message": "add a hitokoto",
+      "additions": 4,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/96b9988d7e2faed71bfe1bd0e6649dc31431709c",
+      "committedDate": "2019-05-17T05:59:28Z",
+      "pushedDate": "2019-05-17T05:59:48Z"
+    },
+    {
+      "message": "添加一言功能，更换字体，修正站点标题位置，修正header高度调整",
+      "additions": 4671,
+      "deletions": 3246,
+      "changedFiles": 24,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/cd0619583ef68a9214d4c19549266f471cd255ae",
+      "committedDate": "2019-05-12T09:11:57Z",
+      "pushedDate": "2019-05-12T09:12:26Z"
+    },
+    {
+      "message": "del a file",
+      "additions": 18,
+      "deletions": 12,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/ffe7d30d5489fad3b293d1d1424ba39dd9f4d843",
+      "committedDate": "2019-04-19T12:23:39Z",
+      "pushedDate": "2019-04-19T12:23:56Z"
+    },
+    {
+      "message": "update npm && random bkg",
+      "additions": 1553,
+      "deletions": 1241,
+      "changedFiles": 38,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/2e0250a7ae70d7268393723b1ea9bdcce0eb123f",
+      "committedDate": "2019-04-19T06:19:11Z",
+      "pushedDate": "2019-04-19T06:20:08Z"
+    },
+    {
+      "message": "more label",
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/895a192f8130629623bac888ba6db176a08212a9",
+      "committedDate": "2019-04-17T10:37:52Z",
+      "pushedDate": "2019-04-17T10:38:10Z"
+    },
+    {
+      "message": "up Next version and write a post",
+      "additions": 2558,
+      "deletions": 1476,
+      "changedFiles": 164,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/7d3f4034cca83a6ae293a5e00f0ab6ee1d3d7c4e",
+      "committedDate": "2019-04-17T10:33:40Z",
+      "pushedDate": "2019-04-17T10:33:59Z"
+    },
+    {
+      "message": "update a post",
+      "additions": 3,
+      "deletions": 1,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/fe5677d3bd31df141b892bb92ee78235da2faef4",
+      "committedDate": "2019-04-13T10:14:39Z",
+      "pushedDate": "2019-04-13T10:14:53Z"
+    },
+    {
+      "message": "update a post",
+      "additions": 79,
+      "deletions": 1,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/6ebb9e15b163fe1a0161f2f9450b91cf8ca3b8c3",
+      "committedDate": "2019-04-13T10:09:56Z",
+      "pushedDate": "2019-04-13T10:10:12Z"
+    },
+    {
+      "message": "updata anime",
+      "additions": 0,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/e6d9ae163fbf1bb702480b4d99c677014713740a",
+      "committedDate": "2019-04-08T04:30:22Z",
+      "pushedDate": "2019-04-08T04:30:36Z"
+    },
+    {
+      "message": "anime updata",
+      "additions": 15,
+      "deletions": 14,
+      "changedFiles": 3,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/6c541c4c8de3423fc66a2ea99330c2b9c12a2cab",
+      "committedDate": "2019-04-08T04:22:01Z",
+      "pushedDate": "2019-04-08T04:23:28Z"
+    },
+    {
+      "message": "Update Next to v7.0.0",
+      "additions": 1260,
+      "deletions": 1187,
+      "changedFiles": 137,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/659fc4dafc4f708cfe01e89ba6ffaa17a858698d",
+      "committedDate": "2019-02-21T06:17:29Z",
+      "pushedDate": "2019-02-21T06:17:48Z"
+    },
+    {
+      "message": "schedule updata 2.13",
+      "additions": 17,
+      "deletions": 13,
+      "changedFiles": 3,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/3c4d2650c858dc1bf5b5ced754084453f848ec66",
+      "committedDate": "2019-02-13T12:15:44Z",
+      "pushedDate": "2019-02-13T12:15:58Z"
+    },
+    {
+      "message": "style fix",
+      "additions": 3,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/5627d3198d10b649c93eab2f2ed090d9dc0f84df",
+      "committedDate": "2019-02-13T09:55:15Z",
+      "pushedDate": "2019-02-13T09:55:29Z"
+    },
+    {
+      "message": "hoilday's updata",
+      "additions": 89,
+      "deletions": 55,
+      "changedFiles": 5,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/4b7e25f7488e404838febcd0f4e4d9f6a5625f45",
+      "committedDate": "2019-02-13T09:43:32Z",
+      "pushedDate": "2019-02-13T09:43:48Z"
+    },
+    {
+      "message": "img lib2",
+      "additions": 14,
+      "deletions": 7,
+      "changedFiles": 3,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/41fd9fb5b8916d83d2f5fbb2918a1285df1bfd82",
+      "committedDate": "2019-02-01T14:32:57Z",
+      "pushedDate": "2019-02-01T14:33:40Z"
+    },
+    {
+      "message": "Merge branch 'master' of https://github.com/median-dxz/median-dxz-blog-hexo-dev",
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/6bd78aeef2720634ccc44d47a48e7f31372d7b9c",
+      "committedDate": "2019-02-01T10:10:27Z",
+      "pushedDate": "2019-02-01T10:11:11Z"
+    },
+    {
+      "message": "img lib",
+      "additions": 64,
+      "deletions": 325,
+      "changedFiles": 10,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/03a43144e3b943c884c4e674835c680f302ca699",
+      "committedDate": "2019-02-01T10:09:56Z",
+      "pushedDate": null
+    },
+    {
+      "message": "190119",
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/fb2e966b52b76dedb6514091094c2c485dd4d728",
+      "committedDate": "2019-01-19T13:36:42Z",
+      "pushedDate": "2019-01-19T13:41:40Z"
+    },
+    {
+      "message": "anime update",
+      "additions": 347,
+      "deletions": 22,
+      "changedFiles": 5,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/fdf500a8794cb2315f1961309d54ea11f5144f36",
+      "committedDate": "2019-01-14T10:25:15Z",
+      "pushedDate": "2019-01-14T10:25:34Z"
+    },
+    {
+      "message": "img maneged tmp 12.27",
+      "additions": 43,
+      "deletions": 8,
+      "changedFiles": 3,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/809214caa1fc540123187078338712aebadd9ea5",
+      "committedDate": "2018-12-27T10:21:21Z",
+      "pushedDate": "2018-12-27T10:21:37Z"
+    },
+    {
+      "message": "12.26",
+      "additions": 34,
+      "deletions": 77,
+      "changedFiles": 15,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/f41559fcf6920235dab4385a65927a3ef945dd3e",
+      "committedDate": "2018-12-26T14:23:55Z",
+      "pushedDate": "2018-12-26T14:24:17Z"
+    },
+    {
+      "message": "change url",
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/036b5d94043b9ff1a495e8c942d109836a56e8e8",
+      "committedDate": "2018-12-21T15:16:55Z",
+      "pushedDate": "2018-12-21T15:17:18Z"
+    },
+    {
+      "message": "using glup opt-web-size",
+      "additions": 7474,
+      "deletions": 1241,
+      "changedFiles": 12,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/ad83fd2af157c1061e77f22733db024e7fc3078e",
+      "committedDate": "2018-12-21T15:12:39Z",
+      "pushedDate": "2018-12-21T15:12:59Z"
+    },
+    {
+      "message": "updata weekly",
+      "additions": 18,
+      "deletions": 1078,
+      "changedFiles": 7,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/89e8459681a8bd79b74c1d2c73e1dc5bd5f8c55e",
+      "committedDate": "2018-12-21T10:21:32Z",
+      "pushedDate": "2018-12-21T10:21:42Z"
+    },
+    {
+      "message": "updata weekly",
+      "additions": 1164,
+      "deletions": 10,
+      "changedFiles": 9,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/af16bd9759f7f929efaf48973218bedbf2cce767",
+      "committedDate": "2018-12-21T09:52:18Z",
+      "pushedDate": "2018-12-21T09:52:29Z"
+    },
+    {
+      "message": "updata weekly",
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/277674b4d13eb48f056ebe8fb2397fbc74f4c64e",
+      "committedDate": "2018-12-19T06:08:46Z",
+      "pushedDate": "2018-12-19T06:09:01Z"
+    },
+    {
+      "message": "updata weekly",
+      "additions": 2,
+      "deletions": 6,
+      "changedFiles": 4,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/e3850cc43ccc67cdc831451d360709771a9b2a91",
+      "committedDate": "2018-12-19T05:58:45Z",
+      "pushedDate": "2018-12-19T05:58:58Z"
+    },
+    {
+      "message": "updata weekly",
+      "additions": 41,
+      "deletions": 20,
+      "changedFiles": 8,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/1ab9a4c48f23b9fb18b2c35233e7d38a303ad8f6",
+      "committedDate": "2018-12-19T05:43:54Z",
+      "pushedDate": "2018-12-19T05:44:06Z"
+    },
+    {
+      "message": "updata weekly",
+      "additions": 6,
+      "deletions": 5,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/861bd8111a4c255b97279111ed7f14e2a5ba7240",
+      "committedDate": "2018-12-17T06:04:03Z",
+      "pushedDate": "2018-12-17T06:04:15Z"
+    },
+    {
+      "message": "updata weekly",
+      "additions": 39,
+      "deletions": 2,
+      "changedFiles": 4,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/352d3f31dad83840f87124776b8c6494cb50d449",
+      "committedDate": "2018-12-15T14:54:28Z",
+      "pushedDate": "2018-12-15T14:54:44Z"
+    },
+    {
+      "message": "del old version",
+      "additions": 0,
+      "deletions": 23732,
+      "changedFiles": 292,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/fe0c75834cc900944b434f6dd86dfbe0e1acfab3",
+      "committedDate": "2018-12-15T14:00:57Z",
+      "pushedDate": "2018-12-15T14:01:16Z"
+    },
+    {
+      "message": "updata to next v6.6.0",
+      "additions": 2101,
+      "deletions": 2093,
+      "changedFiles": 217,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/66c3d2c91c686b4fe6b9da705ca103c9ddd636b7",
+      "committedDate": "2018-12-15T13:58:43Z",
+      "pushedDate": "2018-12-15T13:59:03Z"
+    },
+    {
+      "message": "diff",
+      "additions": 0,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/9e2856c03bec30d26c02769d727a36b40ee99cf7",
+      "committedDate": "2018-12-15T12:39:34Z",
+      "pushedDate": "2018-12-15T12:39:50Z"
+    },
+    {
+      "message": "diff",
+      "additions": 2069,
+      "deletions": 2069,
+      "changedFiles": 219,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/f9c1f77cc0509aee8824cca7d1def93faba3e2c2",
+      "committedDate": "2018-12-15T12:38:21Z",
+      "pushedDate": "2018-12-15T12:38:48Z"
+    },
+    {
+      "message": "time set2",
+      "additions": 1,
+      "deletions": 4,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/0ba2bf71f48fef1b8987ff101fa0174f8a05b849",
+      "committedDate": "2018-12-15T12:24:43Z",
+      "pushedDate": "2018-12-15T12:24:56Z"
+    },
+    {
+      "message": "time set2",
+      "additions": 2072,
+      "deletions": 2077,
+      "changedFiles": 221,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/808f2f84cb1cafef3f7bab27f958bab9b9dba25d",
+      "committedDate": "2018-12-15T12:14:47Z",
+      "pushedDate": "2018-12-15T12:15:01Z"
+    },
+    {
+      "message": "updata locals",
+      "additions": 4,
+      "deletions": 4,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/098d172e3d5303daff5409787659699d9cbb8003",
+      "committedDate": "2018-12-15T10:20:55Z",
+      "pushedDate": "2018-12-15T10:21:10Z"
+    },
+    {
+      "message": "updata next v6.6.0",
+      "additions": 21427,
+      "deletions": 11,
+      "changedFiles": 283,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/c80a4ef6ad8820e19d81b36101a7b806ea3c0fe6",
+      "committedDate": "2018-12-15T10:17:38Z",
+      "pushedDate": "2018-12-15T10:17:55Z"
+    },
+    {
+      "message": "time set2",
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/0edfbf25cbb48e29ca8fabd466cbdfde0329cbcf",
+      "committedDate": "2018-12-11T05:56:59Z",
+      "pushedDate": "2018-12-11T05:57:11Z"
+    },
+    {
+      "message": "time set",
+      "additions": 29,
+      "deletions": 17,
+      "changedFiles": 8,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/2e82a91c2e0a81225a5d0a9854f3df17a9c221be",
+      "committedDate": "2018-12-11T05:50:49Z",
+      "pushedDate": "2018-12-11T05:51:03Z"
+    },
+    {
+      "message": "Merge branch 'master' of github.com:median-dxz/median-dxz-blog-hexo-dev",
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/8ed244c831e02855792fabfb340fe9615ffb5431",
+      "committedDate": "2018-12-08T14:50:27Z",
+      "pushedDate": "2018-12-08T14:51:05Z"
+    },
+    {
+      "message": "2018.12.8 修改",
+      "additions": 144,
+      "deletions": 129,
+      "changedFiles": 17,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/b77070837ddea7db1c806d71055b36adee1badad",
+      "committedDate": "2018-12-08T14:49:21Z",
+      "pushedDate": null
+    },
+    {
+      "message": "title modify",
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/cb16f210ccab18e98bee0f0739f547ecb960a852",
+      "committedDate": "2018-11-25T09:36:20Z",
+      "pushedDate": "2018-11-25T09:36:40Z"
+    },
+    {
+      "message": "project hexo",
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/530f34bcbf650e88fd4db58f33cd4cffa92a3900",
+      "committedDate": "2018-11-25T09:31:23Z",
+      "pushedDate": "2018-11-25T09:32:07Z"
+    },
+    {
+      "message": "project hexo",
+      "additions": 46,
+      "deletions": 0,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/4e06c7c9e8ab37b61536a84e3c1015e8c8345ae4",
+      "committedDate": "2018-11-25T09:28:34Z",
+      "pushedDate": "2018-11-25T09:29:18Z"
+    },
+    {
+      "message": "delete gulp\n\nSigned-off-by: median-dxz <med_iridescence@163.com>",
+      "additions": 539,
+      "deletions": 4544,
+      "changedFiles": 3,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/f76b084e6d1ef1969bca630959f760b7e06e8754",
+      "committedDate": "2018-11-25T08:46:55Z",
+      "pushedDate": "2018-11-25T08:47:24Z"
+    },
+    {
+      "message": "添加高版本html-minifier,更新背景，更新字库，更新js类库",
+      "additions": 4826,
+      "deletions": 717,
+      "changedFiles": 11,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/15786e04e1b7322ab1e32a72f7f04cb12f6d1e8a",
+      "committedDate": "2018-11-25T08:32:33Z",
+      "pushedDate": "2018-11-25T08:33:46Z"
+    },
+    {
+      "message": "Updata 2.0 stage",
+      "additions": 2,
+      "deletions": 45,
+      "changedFiles": 4,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/646ce8b163bfb2d72798e065e76101a2906c630e",
+      "committedDate": "2018-11-25T05:02:15Z",
+      "pushedDate": "2018-11-25T05:02:37Z"
+    },
+    {
+      "message": "2018.11.25",
+      "additions": 29,
+      "deletions": 34,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/ddb451bd9118bb5370372f50752043f0d78dcb6f",
+      "committedDate": "2018-11-25T04:30:59Z",
+      "pushedDate": "2018-11-25T04:31:38Z"
+    },
+    {
+      "message": "2018.10.09",
+      "additions": 148,
+      "deletions": 7,
+      "changedFiles": 4,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/f9d7de4312618ffa8106a2b318c57a69f5c6437f",
+      "committedDate": "2018-10-09T09:27:18Z",
+      "pushedDate": "2018-10-09T09:30:15Z"
+    },
+    {
+      "message": "Update index.md",
+      "additions": 3,
+      "deletions": 3,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/2708c53695d70239b9e0849d7cababd1d86cf4e0",
+      "committedDate": "2018-10-01T16:43:29Z",
+      "pushedDate": "2018-10-01T16:43:31Z"
+    },
+    {
+      "message": "2018.9.25",
+      "additions": 7,
+      "deletions": 22,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/119534cd91698c723553cda52a81094c7caf8ba6",
+      "committedDate": "2018-09-25T03:42:18Z",
+      "pushedDate": "2018-09-25T03:42:34Z"
+    },
+    {
+      "message": "Update _config.yml",
+      "additions": 0,
+      "deletions": 2,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/4e8981013dfbc14572b4213359a4360086fc9538",
+      "committedDate": "2018-09-22T12:53:59Z",
+      "pushedDate": "2018-09-22T12:54:00Z"
+    },
+    {
+      "message": "2018.09.22",
+      "additions": 111,
+      "deletions": 3,
+      "changedFiles": 4,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/8cc1cd006ca5ff89cc1affc44c2f49f244c3afa0",
+      "committedDate": "2018-09-22T12:37:01Z",
+      "pushedDate": "2018-09-22T12:37:16Z"
+    },
+    {
+      "message": "2018.9.20",
+      "additions": 5,
+      "deletions": 2,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/d6621db5edbe6bb0675569c9029ed397d2abfedc",
+      "committedDate": "2018-09-20T14:18:20Z",
+      "pushedDate": "2018-09-20T14:18:34Z"
+    },
+    {
+      "message": "2018.9.20",
+      "additions": 7,
+      "deletions": 0,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/4419c242ed51966987b3eb40be69734078a75b41",
+      "committedDate": "2018-09-20T14:17:32Z",
+      "pushedDate": "2018-09-20T14:17:48Z"
+    },
+    {
+      "message": "qaq",
+      "additions": 23,
+      "deletions": 7,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/627fa1dfd0bde78b9a0018bad45c25d86ca61039",
+      "committedDate": "2018-09-20T14:15:01Z",
+      "pushedDate": "2018-09-20T14:15:22Z"
+    },
+    {
+      "message": "20180915",
+      "additions": 6,
+      "deletions": 0,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/0c1bf1295771dc8c66896c98918b1e4681224370",
+      "committedDate": "2018-09-15T08:57:20Z",
+      "pushedDate": "2018-09-15T08:57:35Z"
+    },
+    {
+      "message": "2018.09.09",
+      "additions": 3,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/23f7089c0a883657af84ba1e56447cea3d135037",
+      "committedDate": "2018-09-09T13:53:40Z",
+      "pushedDate": "2018-09-09T13:53:53Z"
+    },
+    {
+      "message": "t",
+      "additions": 23730,
+      "deletions": 0,
+      "changedFiles": 295,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/5fca48cdbcab691d7412b3a3958dd4939acb5182",
+      "committedDate": "2018-09-08T14:59:07Z",
+      "pushedDate": "2018-09-08T14:59:33Z"
+    },
+    {
+      "message": "\tmodified:   .gitignore",
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/67750de6812e58b64121e9f36b168afcd7b14924",
+      "committedDate": "2018-09-08T14:57:25Z",
+      "pushedDate": "2018-09-08T14:57:52Z"
+    },
+    {
+      "message": "\tmodified:   .gitignore\n\tdeleted:    themes/next",
+      "additions": 2,
+      "deletions": 1,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/5a846deb25e7a909ff6e602a439d69e9af6bba5f",
+      "committedDate": "2018-09-08T14:55:12Z",
+      "pushedDate": "2018-09-08T14:55:43Z"
+    },
+    {
+      "message": "\tmodified:   .gitignore",
+      "additions": 20,
+      "deletions": 0,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/7c6708d0ab8d39c6e5c1748be2509e1236027d20",
+      "committedDate": "2018-09-08T14:52:40Z",
+      "pushedDate": "2018-09-08T14:54:20Z"
+    },
+    {
+      "message": "\tmodified:   .gitignore\n\tthemes/lite/",
+      "additions": 0,
+      "deletions": 2,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/81c8c216fd59a8ff43d8ae73c1e8c80d2180bb70",
+      "committedDate": "2018-09-08T14:50:04Z",
+      "pushedDate": "2018-09-08T14:50:57Z"
+    },
+    {
+      "message": "new submit",
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/a1746357e00240ace21f0e42ec5b8d2bdf367575",
+      "committedDate": "2018-09-08T14:36:29Z",
+      "pushedDate": "2018-09-08T14:37:01Z"
+    },
+    {
+      "message": "updata",
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/224a86df4c0de5001cae17dcc1d1b8eb01632510",
+      "committedDate": "2018-09-03T05:20:43Z",
+      "pushedDate": "2018-09-03T05:20:48Z"
+    },
+    {
+      "message": "new ingore rules",
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 2,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/f5ae548b13d3093f6bdb81bbdf2ef005f60c784d",
+      "committedDate": "2018-09-03T05:18:19Z",
+      "pushedDate": "2018-09-03T05:18:30Z"
+    },
+    {
+      "message": "update .gitignore",
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/bea87a8b37b6dfef4d7563d902ca6fe789794e29",
+      "committedDate": "2018-09-03T04:52:03Z",
+      "pushedDate": "2018-09-03T04:52:11Z"
+    },
+    {
+      "message": "new ingore",
+      "additions": 1,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/eadc53d09a557157ef4b0a3bf58b97ce7b17b060",
+      "committedDate": "2018-09-03T04:50:54Z",
+      "pushedDate": "2018-09-03T04:51:04Z"
+    },
+    {
+      "message": "new ingore",
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/c11c1a9b6d31099c42c83be941b991a39346ed8f",
+      "committedDate": "2018-09-03T04:49:35Z",
+      "pushedDate": "2018-09-03T04:49:46Z"
+    },
+    {
+      "message": "new ingore",
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/4fa836c34561c1cd68bf046017e54cc46eb98b00",
+      "committedDate": "2018-09-03T04:49:14Z",
+      "pushedDate": "2018-09-03T04:49:24Z"
+    },
+    {
+      "message": "new ingore",
+      "additions": 3,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/cc4935464fb2f95aa47e5ffc24a92e97f5fa0712",
+      "committedDate": "2018-09-03T04:48:22Z",
+      "pushedDate": "2018-09-03T04:48:33Z"
+    },
+    {
+      "message": "clean",
+      "additions": 0,
+      "deletions": 5425,
+      "changedFiles": 84,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/d8aa02a7eb3d2c8446533f8752f215b3c20d8e0a",
+      "committedDate": "2018-09-03T04:45:27Z",
+      "pushedDate": "2018-09-03T04:45:37Z"
+    },
+    {
+      "message": "Update index.md",
+      "additions": 1,
+      "deletions": 0,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/01dbc239ef80f217967ced57eeb840b9de56d2cb",
+      "committedDate": "2018-09-02T14:29:18Z",
+      "pushedDate": "2018-09-02T14:29:19Z"
+    },
+    {
+      "message": "clone new",
+      "additions": 7,
+      "deletions": 0,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/f4632ff8f86c509cef694ed7748e606961d16ebb",
+      "committedDate": "2018-09-02T14:27:46Z",
+      "pushedDate": "2018-09-02T14:28:01Z"
+    },
+    {
+      "message": "Update 优先队列知识点总结.md",
+      "additions": 2,
+      "deletions": 2,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/ce6f00eb30ef327101e09db5b5dfe43e2be628dc",
+      "committedDate": "2018-09-02T06:36:34Z",
+      "pushedDate": "2018-09-02T06:36:35Z"
+    },
+    {
+      "message": "post up",
+      "additions": 46,
+      "deletions": 0,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/e9fed0c1edbf83dc770e2300d2ceb451ff459edd",
+      "committedDate": "2018-09-02T06:21:31Z",
+      "pushedDate": "2018-09-02T06:21:48Z"
+    },
+    {
+      "message": "new page",
+      "additions": 129,
+      "deletions": 2,
+      "changedFiles": 4,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/e3b52a12d978b831b389f5a0bd532989cd60e288",
+      "committedDate": "2018-09-01T14:07:16Z",
+      "pushedDate": "2018-09-01T14:07:33Z"
+    },
+    {
+      "message": "Updata readme.md",
+      "additions": 3,
+      "deletions": 0,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/31882c4f0fe260a2120489e2e2e11e62e84e285e",
+      "committedDate": "2018-09-01T13:33:33Z",
+      "pushedDate": "2018-09-01T13:33:53Z"
+    },
+    {
+      "message": "test",
+      "additions": 4064,
+      "deletions": 188,
+      "changedFiles": 32,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/2baf77603dcc8cd1b9d3a479fcfcb89b8bb4316b",
+      "committedDate": "2018-09-01T13:26:07Z",
+      "pushedDate": "2018-09-01T13:26:22Z"
+    },
+    {
+      "message": "Update README.md",
+      "additions": 3,
+      "deletions": 1,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/591df99827bba415802f774e6c6afd4daa40b34b",
+      "committedDate": "2018-08-28T09:51:02Z",
+      "pushedDate": "2018-08-28T09:51:03Z"
+    },
+    {
+      "message": "2018.7.2",
+      "additions": 3,
+      "deletions": 0,
+      "changedFiles": 1,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/b271c02d5240241543406297b86d6ec6a83fabf7",
+      "committedDate": "2018-07-02T09:52:12Z",
+      "pushedDate": "2018-07-02T09:52:21Z"
+    },
+    {
+      "message": "2018.7.2",
+      "additions": 5697,
+      "deletions": 0,
+      "changedFiles": 92,
+      "commitUrl": "https://github.com/median-dxz/median-dxz-blog-hexo-dev/commit/1f03427bcd0ec42f880b9573c5e321e3af139c96",
+      "committedDate": "2018-07-02T09:44:06Z",
+      "pushedDate": "2018-07-02T09:44:54Z"
+    }
+  ]
+}

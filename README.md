@@ -23,6 +23,9 @@ Median-dxz's Blog Project
 - [X] about footer时间
 - [x] img显示信息
 - [x] gitalk使用独立配置
+- [ ] 重构changelog
+- [ ] 慢加载动画，异步插入
+- [ ] 首栏信息
 - [ ] bkg.json完成
 - [ ] about:追番列表
 
