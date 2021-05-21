@@ -3,6 +3,7 @@
   "version": "0.2.2",
   "private": true,
   "scripts": {
+    "fix-resolutions": "npx npm-force-resolutions",
     "launch": "hexo clean && hexo generate && hexo server",
     "publish": "hexo clean && hexo generate && gulp && hexo deploy",
     "build": "hexo generate ",
@@ -24,7 +25,7 @@
     "hexo-generator-searchdb": "^1.3.3",
     "hexo-generator-sitemap": "^2.1.0",
     "hexo-generator-tag": "^1.0.0",
-    "hexo-next-three": "median-dxz/hexo-next-three",
+    "hexo-next-three": "next-theme/hexo-next-three",
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-pandoc": "^0.3.0",
     "hexo-renderer-stylus": "^2.0.1",
@@ -41,9 +42,15 @@
     "eslint-config-prettier": "^8.3.0",
     "gulp": "^4.0.2",
     "html-minifier-terser": "^5.1.1",
+    "npm-force-resolutions": "^0.0.10",
     "sharp": "^0.28.2",
     "terser": "^5.7.0",
     "through2": "^4.0.2"
+  },
+  "resolutions": {
+    "@next-theme/utils": "1.2.0",
+    "stylus": "0.54.8",
+    "lodash": "4.17.21"
   },
   "prettier": {
     "tabWidth": 2,
