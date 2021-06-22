@@ -53,17 +53,11 @@ Median-dxz's Blog Project
 
 当前进度：
 
-改为changelog
+changlog加载更多按钮
 
-从github或git目录或导出commit文件
+暂时先加载15条最近commit
 
-导出并处理相关信息 filechange + - 时间 hash等
-
-处理为json
-
-ejs批量导入
-
-添加一些信息，如重要commit，运行时间
+准备更换仓库
 
 用到的项目列表
 

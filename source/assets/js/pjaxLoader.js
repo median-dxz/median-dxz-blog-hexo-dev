@@ -66,7 +66,6 @@ var loaderCommmitData = async () => {
             let committedYear = e.committedDate.getFullYear();
             if (committedYear < curYear) {
                 curYear = committedYear;
-                $().
                 $('.container-changelog').append(templateYear(curYear));
             }
             $('.container-changelog').append(templateCommit(e));
@@ -84,8 +83,9 @@ export default () => {
             changeStickyIcon();
             break;
         case 'changelog':
-            runMusicTC();
+            //runMusicTC();
             loaderCommmitData().then((f) => {
+                f(15);
             });
             break;
         default:
