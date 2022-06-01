@@ -43,7 +43,7 @@
     "gulp": "^4.0.2",
     "html-minifier-terser": "^5.1.1",
     "npm-force-resolutions": "^0.0.10",
-    "sharp": "^0.28.3",
+    "sharp": "^0.30.5",
     "terser": "^5.7.0",
     "through2": "^4.0.2"
   },
