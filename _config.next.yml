@@ -323,7 +323,7 @@ codeblock:
     # All available themes: https://theme-next.js.org/highlight/
     theme:
         light: atom-one-light
-        dark: tomorrow-night
+        dark: atom-one-dark
     prism:
         light: prism-vsc-dark-plus
         dark: prism-tomorrow
