@@ -127,7 +127,7 @@ symbols_count_time:
     total_time: true
 
 three:
-    enable: true
+    enable: false
     defer: true
     waves:
         enable: false
