@@ -15,7 +15,7 @@ sticky: 7
 
 这篇文章会记录下这个blog的更新历程，估计完善之后会出一个教程吧。
 
-
+注意：下面教程内的大部分内容已经过时！本站的维护时间待定，下面所有内容仅供参考！
 
 ### Todo
 
@@ -35,7 +35,7 @@ sticky: 7
 - [x] 添加blog上一次部署信息
 - [ ] 友链
 
-github上项目源码：<https://github.com/median-dxz/median-dxz-blog-hexo-dev> (暂时私有化)
+github上项目源码：<https://github.com/median-dxz/median-dxz-blog-hexo-dev>
 
 
 
