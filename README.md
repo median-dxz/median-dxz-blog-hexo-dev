@@ -6,6 +6,8 @@ Median-dxz's Blog Project
 
 2023/04/25: 目前网站已经重新上线，但近期没有维护和更新的计划
 
+2025/08/17: https://github.com/median-dxz/sigure-blog, 本项目即日起正式归档
+
 ---
 
 # LOG
@@ -54,51 +56,6 @@ Median-dxz's Blog Project
 - [x] 添加blog上一次部署信息
 - [ ] 重构很差的代码和目录组织（永远不会(ing..
 - 进度：css重构，工作区插件配置，音乐重构（async）✅，js✅，文章重写
-
----
-
-当前进度：
-
-changlog加载更多按钮
-
-暂时先加载15条最近commit
-
-准备更换仓库
-
-用到的项目列表
-
-todolist
-
----
-
-about页面换背景，完善联系方式，profile，追番列表
-
-加emt插图
-
----
-
-推特账号，steam，p站，贴吧，origin，uplay
-
----
-
-vscode插件支持，迁移腾讯云，图床暂定仍smms
-
----
-
-img和一些bkg存cos
-
-多数bkg，并换
-
----
-
-seo，分析，统计
-
----
-
-重写两篇博文，写新的
-
-展示展示
-
 ---
 
 更长远：友链，自搭音乐服务并自行提供api，备案，显示信息的小图标
